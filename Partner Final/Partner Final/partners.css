@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.partner-text h1{
+    font-size: 5vh;
+    width: 30vw;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Baloo 2";
+    margin-left: 67.5vh;
+    line-height: 7vh;
+}
+
+.partner-text span{
+    height: .3vh;
+    width: 35vw;
+    background-color: #0c574e;
+    display: flex;
+    margin-left: 63vh;
+    margin-top: -2vh;
+}
+
+.partner-text1{
+    width: 35vw;
+    text-align: center;
+    margin-left: 63vh;
+    margin-top: 1vh;
+    font-family: "Baloo 2";
+}
+
+.partner{
+    height: 60vh;
+    width: 98.5vw;
+    background-image: url(images/Untitled\ design.png);
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    margin-top: 2vw;
+}
+.partner-txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-quote-txt{
+    font-size: 5vh;
+    display: flex;
+    font-family: "Baloo 2";
+    width: 30vw;
+    margin-left: 70vh;
+    margin-top: 8vh;
+}
+
+.partner-author-txt{
+    font-size: 5vh;
+    font-family: "Baloo 2";
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+
+.partner-txt1{
+    display: flex;
+    flex-direction: column;
+}
+
+div.partner-text3{
+        width: 70vw;
+        height: 28vh;
+        background-color: #fff;
+        box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
+        margin-left: 27.5vh;
+        margin-top: -15vh;
+        border-radius: 2vh;
+}
+
+.partner-text4{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    font-family: "Baloo 2";
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text{
+    width: 50vw;
+    font-size: 3vh;
+    font-family: "Baloo 2";
+    text-align: center;
+    margin-left: 20vh;
+    margin-top: 3vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 15vh;
+}
+
+.image img{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 2vh;
+}
+
+.partner-txt2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background\ text.png);
+    background-repeat: no-repeat;
+    height: 115vh;
+    margin-top: 5vh;
+    margin-left: 20vh;
+}
+
+.partner-text5{
+    font-size: 4vh;
+    width: 65vh;
+    font-family: "Baloo 2";
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20vh;
+    margin-top: 15vh;
+}
+
+
+.partner-text6{
+    font-size: 3vh;
+    font-family: "Baloo 2";
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-left: 6vh;
+}
+
+.partner-text7{
+    font-family: "Baloo 2";
+    font-size: 2.5vh;
+    width: 37vw;
+    margin-left: 6vh;
+    margin-top: 2vh;
+    line-height: 3.8vh;
+}
+
+
+.partner-txt3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background\ text1.png);
+    background-repeat: no-repeat;
+    background-size: 140vh;
+    height: 108vh;
+    width: 80vw;
+    margin-left: 30vh;
+}
+
+.image1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -100vh;
+}
+
+.image1 .img-mob{
+    display: none;
+}
+
+.image1 img{
+    width: 26vw;
+    height: 80vh;
+    border-radius: 2vh;
+    margin-left: 40vh;
+}
+
+div.partner-text8{
+    width: 40vw;
+    height: 80vh;
+    background-color: #fff;
+    box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
+    margin-left: 50vh;
+    margin-top: 15vh;
+    border-radius: 2vh;
+}
+
+
+
+.partner-text9{
+    font-family: "Baloo 2";
+    font-size: 4.5vh;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 24vh;
+    margin-top: 4vh;
+}
+
+
+.partner-text10{
+    font-size: 3vh;
+    font-family: "Baloo 2";
+    font-weight: bold;
+    margin-top: 4vh;
+    margin-left: 12vh;
+}
+
+.partner-text11{
+    font-family: "Baloo 2";
+    font-size: 2.5vh;
+    width: 32vw;
+    margin-left: 12vh;
+    margin-top: 2.5vh;
+    line-height: 3.8vh;
+}
+
+.our-partners{
+    margin-top: 25vh;
+    font-size: 2.5vh;
+    font-family: "Baloo 2";
+    text-align: center;
+}
+
+.our-partners span{
+    height: .4vh;
+    width: 34vw;
+    background-color: #0c574e;
+    display: flex;
+    margin-left: 62vh;
+    margin-top: -2vh;
+}
+
+  
+.partner-logo-flex {
+    height: 50vh;
+    margin-top: 1vh;
+    margin-left: -15vh;
+    display: flex;
+    justify-content: center;
+  
+}
+  
+.partner-logo-img {
+    margin-top: 3vh;
+    width: 11vw;
+    margin-left: 12vh;
+  
+}
+  
+.partner-logo-img img {
+    width: 12vw;
+}
+
+  
+.partner-logo-flex1 {
+    height: 50vh;
+    margin-top: 2vh;
+    margin-left: -15vh;
+    display: flex;
+    justify-content: center;
+}
+  
+.partner-logo-img1 {
+    margin-top: -25vh;
+    width: 11vw;
+    margin-left: 12vh;  
+}
+  
+.partner-logo-img1 img {
+    width: 12vw;
+}
+
+  
+.partner-logo-flex2 {
+    height: 50vh;
+    margin-top: -22vh;
+    margin-left: -15vh;
+    display: flex;
+    justify-content: center;
+}
+  
+.partner-logo-img2 {
+    margin-top: -25vh;
+    width: 11vw;
+    margin-left: 12vh;
+  
+}
+  
+.partner-logo-img2 img {
+    width: 12vw;
+}
+
+.photo{
+    margin-top: -50vh;
+}
+
+.photo img{
+    width: 98.5vw;
+    height: 90vh;
+}
+
+
+
+.partner-logo-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.partner-pic-txt {
+    width: 24vw;
+    margin-left: 5vh;
+}
+
+.partner-pic-logo span{
+    font-family: "Baloo 2";
+}
+
+  
+.partner-pic-logo img {
+    position: relative;
+    top: -2.5vh;
+    width: 7vh;
+    margin: 1vh;
+    float: left;
+}
+
+
+@media(max-width:950px) {
+    .partner-text h1{
+        font-size: 4vh;
+        width: 100vw;
+        font-family: "Baloo 2";
+        margin-left: -1vh;
+    }
+
+    .partner-text span{
+        height: .4vh;
+        width: 96.5vw;
+        background-color: #0c574e;
+        display: flex;
+        margin-left: -0.5vh;
+        margin-top: -1vh;
+    }
+
+    .partner-text1{
+        width: 95vw;
+        text-align: center;
+        margin-left: -0.3vh;
+        margin-top: 1vh;
+        font-family: "Baloo 2";
+        font-size: 2vh;
+    }
+    .partner{
+        height: 60vh;
+        width: 95.6vw;
+        background-image: url(images/small\ pic1.png);
+        background-size: 45.5vh;
+        background-repeat: no-repeat;
+        margin-top: 2vw;
+    }
+    .partner-quote-txt{
+        font-size: 2.5vh;
+        display: flex;
+        font-family: "Baloo 2";
+        width: 65vw;
+        margin-left: 10vh;
+        margin-top: 3vh;
+    }
+    
+    .partner-author-txt{
+        font-size: 2vh;
+        font-family: "Baloo 2";
+        display: flex;
+        margin-left: 2vh;
+        margin-top: -2vh;
+    }
+    div.partner-text3{
+        width: 93vw;
+        height: 15vh;
+        background-color: #fff;
+        box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
+        margin-left: 0.6vh;
+        margin-top: -45vh;
+        border-radius: 2vh;
+    }
+    .partner-text4{
+        margin-top: 1.5vh;
+        text-align: center;
+        font-size: 2vh;
+        font-weight: bold;
+        font-family: "Baloo 2";
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        width: 90vw;
+        font-size: 2vh;
+        font-family: "Baloo 2";
+        text-align: center;
+        margin-left: 0vh;
+        margin-top: 1vh;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        display: flex;
+        margin-top: -28vh;
+        margin-left: 1vh;
+    }
+    
+    .image img{
+        width: 90vw;
+        height: 50vh;
+        border-radius: 2vh;
+    }
+    
+    .partner-txt2{
+        display: flex;
+        flex-direction: column;
+        background-image: url(images/12.png);
+        background-repeat: no-repeat;
+        background-size: 42vh;
+        height: 150vh;
+        width: 90vw;
+        margin-top: 5vh;
+        margin-left: 0vh;
+    }
+
+    
+    
+    .partner-text5{
+        font-size: 2.8vh;
+        width: 40vh;
+        font-family: "Baloo 2";
+        font-weight: bold;
+        margin-top: 5vh;
+        margin-left: -1vh;
+    }
+    
+    
+    .partner-text6{
+        font-size: 2.5vh;
+        font-family: "Baloo 2";
+        font-weight: bold;
+        margin-top: 1vh;
+        margin-left: 2vh;
+    }
+    
+    .partner-text7{
+        font-family: "Baloo 2";
+        font-size: 2vh;
+        width: 80vw;
+        margin-left: 2vh;
+        margin-top: 2vh;
+        line-height: 3vh;
+    }
+    /* .partner-txt3{
+        display: flex;
+        flex-direction: column;
+        background-image: url(images/12.png);
+        background-repeat: no-repeat;
+        background-size: 30vh;
+        height: 108vh;
+        width: 80vw;
+        position: relative;
+        left: -10vh;
+        
+    } */
+    
+    .image1{
+        display: flex;
+        flex-direction: row;
+        margin-top: -165vh;
+    }
+
+    .image1 .img-full{
+        display: none;
+    }
+
+    .image1 .img-mob{
+        display: block;
+    }
+    
+    .image1 img{
+        width:90vw;
+        height: 30vh;
+        border-radius: 2vh;
+        margin-left: 1vh;
+    }
+    
+    div.partner-text8{
+        width: 90vw;
+        height: 65vh;
+        background-color: #fff;
+        box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
+        margin-left: -29vh;
+        margin-top: -25vh;
+        border-radius: 2vh;
+    }
+    .partner-text9{
+        font-family: "Baloo 2";
+        font-size: 4vh;
+        width: 30vh;
+        font-weight: bold;
+        margin-left: 4vh;
+        margin-top: -0.1vh;
+    }
+    
+    
+    .partner-text10{
+        font-size: 3vh;
+        font-family: "Baloo 2";
+        font-weight: bold;
+        margin-top: 1vh;
+        margin-left: 2vh;
+    }
+    .partner-text11{
+        font-family: "Baloo 2";
+        font-size: 2vh;
+        width: 85vw;
+        margin-left: 2vh;
+        margin-top: 1vh;
+        line-height: 3vh;
+    }
+
+    .our-partners{
+        margin-top: 68vh;
+        width: 80vw;
+        font-size: 1.5vh;
+        font-family: "Baloo 2";
+        margin-left: 3vh;
+    }
+    
+    .our-partners span{
+        height: .5vh;
+        width: 85vw;
+        background-color: #0c574e;
+        display: flex;
+        margin-left: -1vh;
+        margin-top: -1vh;
+    }
+
+    .partner-logo-flex {
+        height: 30vh;
+        margin-top: 1vh;
+        margin-left: -13vh;
+        display: flex;
+        justify-content: center;
+      
+    }
+      
+    .partner-logo-img {
+        margin-top: 2vh;
+        width: 10vw;
+        margin-left: 5.5vh;
+      
+    }
+      
+    .partner-logo-img img {
+        width: 20vw;
+    }
+    
+      
+    .partner-logo-flex1 {
+        height: 30vh;
+        margin-top: 1vh;
+        margin-left: -13vh;
+        display: flex;
+        justify-content: center;
+    }
+      
+    .partner-logo-img1 {
+        margin-top: -18vh;
+        width: 10vw;
+        margin-left: 5.5vh;  
+    }
+      
+    .partner-logo-img1 img {
+        width: 20vw;
+    }
+    
+      
+    .partner-logo-flex2 {
+        height: 50vh;
+        margin-top: -22vh;
+        margin-left: -13vh;
+        display: flex;
+        justify-content: center;
+    }
+      
+    .partner-logo-img2 {
+        margin-top: -13vh;
+        width: 10vw;
+        margin-left: 6vh;
+      
+    }
+      
+    .partner-logo-img2 img {
+        width: 20vw;
+    }
+
+    .photo{
+        margin-top: -50vh;
+    }
+    
+    .photo img{
+        width: 95.5vw;
+        height: 30vh;
+    }
+
+    .partner-logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 35vh;
+        margin-top: -5vh;
+    }
+      
+    .partner-pic-txt {
+        width: 80vw;
+        margin-left: 1vh;
+        line-height: 2.5vh;
+    }
+    
+    .partner-pic-logo span{
+        font-family: "Baloo 2";
+        font-size: 2vh;
+    }
+    
+      
+    .partner-pic-logo img {
+        position: relative;
+        top: -2.5vh;
+        width: 6vh;
+        margin: 1vh;
+        float: left;
+    }
+}
