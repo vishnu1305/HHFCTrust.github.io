@@ -65,7 +65,9 @@
             <div class="site-name">hhfc.in</div>
         </div>
         <div class="home-right">
-            <video src="images/hhfc-video.mp4" autoplay loop></video>
+            <video id="autoplay" autoplay muted loop>
+                <source src="images/hhfc-video.mp4" type="video/mp4">
+            </video>
         </div>
     </section>
 
@@ -992,6 +994,10 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
             setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+
+        window.onload=function(){
+            document.getElementById("autoplay").play();
         }
     </script>
 </body>
