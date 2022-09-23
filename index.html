@@ -16,6 +16,7 @@
     <title>HHFC Trust</title>
 </head>
 
+
 <body>
     <section class="navbar" id="home">
         <input type="checkbox" class="check1" id="check">
@@ -25,28 +26,37 @@
             <div></div>
         </label>
         <div class="logo"><img src="images/hhfclogo1.jpg" alt=""></div>
-        <nav>
+        <nav id="nav-main">
             <div><input type="radio" name="nav" id="navigation" checked>
-                <label class="hey" for="navigation">
-                    <a class="home-nav" href="#home">Home</a>
+                <label id="nav-btn"  class="home-nav" for="navigation">
+                    <a onclick="nav()" id="home-test" href="#home">Home</a>
                 </label>
             </div>
-
+    
             <div><input type="radio" name="nav" id="navigation1">
-                <label class="hey" for="navigation1">
-                    <a class="about-nav" href="#about-us">About Us</a>
+                <label id="nav-btn1" class="about-nav" for="navigation1">
+                    <a onclick="nav1()" href="#about-us">About Us</a>
                 </label>
             </div>
-            <a class="project-nav" href="#projects">Projects</a>
-            <a class="team-nav" href="#team">Our Team</a>
+    
+            <div><input type="radio" name="nav" id="navigation2">
+                <label id="nav-btn2" class="project-nav" for="navigation2">
+                    <a onclick="nav2()" href="#projects">Projects</a>
+                </label>
+            </div>
+            <div><input type="radio" name="nav" id="navigation3">
+                <label id="nav-btn3" class="project-nav" for="navigation3">
+                    <a onclick="nav3()" href="#team">Our Team</a>
+                </label>
+            </div>
             <a class="achievement-nav" href="#achievement">Achievements</a>
             <a class="partner-nav" href="#Partners">Partners</a>
             <a class="rakt-nav" href="https://forms.gle/Hq656JyckAVnnNiR9" target="_blank">Rakta Raiser</a>
         </nav>
         <label for="donate" class="donate"><label for="donate">Donate</label></label>
     </section>
-
-    <section class="home-main">
+    
+    <section class="home-main" id="home1" onmouseover="nav()" onscroll="nav_up()">
         <div class="home-left">
             <div class="hhfc-design">
                 <div class="gif1"><img src="images/des1.gif" alt=""></div>
@@ -55,7 +65,7 @@
                 <div class="hhfc-f">F</div>
                 <div class="hhfc-c">C</div>
             </div>
-
+    
             <div class="hhfc-quote">" Helping Hands Are Better Than Praying Lips "</div>
             <div class="register-btn-design">
                 <img class="register-left" src="images/register_img.png" alt="">
@@ -70,16 +80,46 @@
             </video>
         </div>
     </section>
-
-
-    <section class="about-us" id="about-us">
+    
+    <div>
+        <input type="checkbox" name="" id="donate">
+        <label for="donate" class="payment">
+            <div class="donate-pay">
+                <h2>Your small help makes their future brighter.</h2>
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K49y1d2DTM2lyp" async> </script>
+                </form>
+            </div>
+        </label>
+    </div>
+    
+    
+    <div>
+        <input type="checkbox" name="" id="register">
+        <label for="register" class="payment">
+            <div class="donate-pay">
+                <h2>To become our part of family.</h2>
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
+                </form>
+            </div>
+        </label>
+    </div>
+    
+    
+    
+    
+    <section class="about-us" id="about-us" onmouseover="nav1()">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+        <p>Helping Hands Friends Charitable Trust is a registered NGO in India based primarily in Patna and Prayagraj.
+            We believe that children are the future of our Nation and aim to invest in them today so that tomorrow they
+            bring honor to our country.</p>
     </section>
-
-
-    <section class="whatwedo" id="whatwedo">
+    
+    
+    <section class="whatwedo" id="whatwedo" onmouseover="nav1()">
         <div class="whatwedo-head">
             <h1 class="h1">WHAT WE</h1>
             <h1 class="h2">Do?</h1>
@@ -108,8 +148,8 @@
                     </label>
                 </div>
             </div>
-
-            <div class="content1">
+    
+            <div class="content1 content2">
                 <div class="education-wrapper">
                     <label for="outreach" class="homeless-card cards">
                         <div class="img"><img src="images/3.png" alt=""></div>
@@ -132,7 +172,7 @@
                     </label>
                 </div>
             </div>
-
+    
             <div>
                 <input type="checkbox" name="" id="education">
                 <label for="education" class="whatwedo-info">
@@ -145,36 +185,16 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">We at HHFC Trust provide free education to slum children of age group
+                            ____ under project 'दिशा'. In total, we have 5 centers; 4 in different areas of Patna, Bihar
+                            and 1 in Prayagraj, Uttar Pradesh. All our centers have minimum of 40 students and 4
+                            volunteers for proper guidance. Every center has 2 coordinators. With studies; regular
+                            tests, one-to-one interaction with every student and extra activities are also held at our
+                            study centers.</div>
                     </div>
                 </label>
             </div>
-
+    
             <div>
                 <input type="checkbox" name="" id="medical">
                 <label for="medical" class="whatwedo-info">
@@ -187,36 +207,15 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">Health is something that is considered the real wealth of a person and we
+                            at HHFC take care of our kids health on every center. Our efforts include regular health
+                            camps (including dental, period drives, awareness about any new disease campaign etc) and
+                            distribution of essentials and teaching them basic healthcare measures ourselves only, all
+                            this is counted as project "स्वास्थ".</div>
                     </div>
                 </label>
             </div>
-
+    
             <div>
                 <input type="checkbox" name="" id="food">
                 <label for="food" class="whatwedo-info">
@@ -229,37 +228,15 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">Through our project "आहार" we feed people struggling with living on
+                            roadside or in slums. Our this project have nights where we're totally dedicated to food
+                            drives and days where we're all ready to not let any food get wasted and make sure it
+                            reaches to those in need. Till now project आहार has fed more than 1000 needy people.</div>
                     </div>
                 </label>
             </div>
-
-
+    
+    
             <div>
                 <input type="checkbox" name="" id="outreach">
                 <label for="outreach" class="whatwedo-info">
@@ -272,37 +249,16 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">We at HHFC Trust believe in "वसुधैव कुटुंबकम" . So, we reach out to
+                            homeless people as soon as possible and help them in the best possible way. As in, if any of
+                            our members inform us or we get any lead about someone homeless and looking for help, we
+                            step forward and take the charge. Also, till now HHFC has a quite decent record in homeless
+                            outreach.</div>
                     </div>
                 </label>
             </div>
-
-
+    
+    
             <div>
                 <input type="checkbox" name="" id="blood">
                 <label for="blood" class="whatwedo-info">
@@ -315,37 +271,14 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">HHFC runs a blood donation initiative namely project "रक्त Raisers"
+                            through which we help people in emergency anytime by donating ourselves or arranging through
+                            leads. Through this project we have saved so many lives and are grateful for this.</div>
                     </div>
                 </label>
             </div>
-
-
+    
+    
             <div>
                 <input type="checkbox" name="" id="festival">
                 <label for="festival" class="whatwedo-info">
@@ -358,46 +291,24 @@
                             </label>
                             <label for="" class="close"></label>
                         </div>
-                        <div class="info-body">Lorem ipsum Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Atque deleniti nulla itaque doloremque rerum officia debitis mollitia. Ullam quia amet, nam
-                            magni consequatur culpa voluptas voluptates tenetur rem vitae beatae eos nemo accusamus
-                            aspernatur iusto inventore, ipsa exercitationem mollitia molestias velit adipisci a.
-                            Deleniti illum dolorem nobis consectetur veritatis aliquam aut magnam provident officia
-                            saepe eos necessitatibus voluptatum quidem amet in voluptatibus tempore, velit pariatur
-                            perspiciatis. Sequi, maiores? Maiores soluta atque, consectetur exercitationem id omnis
-                            odio. Minus mollitia omnis non magni aliquid modi esse molestias hic! Rem nemo quas
-                            reprehenderit eos. Deleniti accusantium eius asperiores maxime repellendus! Aperiam cum unde
-                            suscipit eius molestiae aliquam modi, nemo mollitia inventore laborum impedit similique
-                            nobis, iusto ut deserunt earum esse possimus odio aut vel dolores? Facilis deleniti at
-                            expedita illum voluptatem quasi recusandae enim, similique ea sapiente quod, quisquam
-                            assumenda voluptates natus earum debitis vitae necessitatibus veniam eius ipsa in? Laborum
-                            architecto dolorum libero, totam eveniet vel sapiente, neque aliquam animi soluta magni
-                            eaque placeat fugit rem vitae commodi tenetur facere perspiciatis perferendis ullam,
-                            corrupti repellendus et non? Aperiam voluptas aspernatur, dolores provident placeat
-                            doloribus distinctio maxime sequi architecto consectetur sit assumenda possimus porro
-                            nesciunt! Voluptas, sint rerum odit et fugit esse laudantium. dolor sit amet consectetur
-                            adipisicing elit. Quasi minima dignissimos exercitationem est totam. Earum, dignissimos at!
-                            Enim ad suscipit accusamus, soluta quaerat dolore fugit iusto! Ipsa maiores consequatur
-                            quisquam libero eaque, nemo vel, consequuntur eius sed cum numquam in itaque natus enim odit
-                            labore nisi. Quasi illum repellat vero aliquid sint sit vitae nihil saepe excepturi
-                            doloribus a itaque, dolor laudantium totam blanditiis iusto ratione quam odit at! Molestias
-                            nesciunt facere illum. Quis ullam ad corporis ut voluptatem consectetur neque totam, sint
-                            ipsa perferendis doloribus nostrum facilis impedit quia odit suscipit fugiat maxime id
-                            voluptatibus laborum assumenda? Iusto, sed?</div>
+                        <div class="info-body">We believe in not only celebrating but sharing happiness too. So, us
+                            HHFCians celebrate every festival with kids on our study centers too and not only we make
+                            them aware about important Indian festivals but also teach them the importance of days like
+                            environment day, mother's day and all the others. Yes, we don't forget to celebrate our
+                            national festivals with flag hoisting and utmost zeal too.</div>
                     </div>
                 </label>
             </div>
-
+    
         </div>
     </section>
-
-
-    <section class="project-main" id="projects">
+    
+    
+    <section class="project-main" id="projects"  onmouseover="nav2()">
         <div class="project-left">
-            <h1>Our past</h1>
+            <h1>Our</h1>
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. </p>
+            <p>Other than the education sector, our NGO is working for welfare in relation to poverty, health, environment, women and child welfare, cultural training etc. </p>
             <div class="line-box"></div>
         </div>
         <div class="project-right">
@@ -408,10 +319,8 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Aoshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Project Aahar</h1>
+                                <p>The day hunger disappears, the world will see the greatest spiritual explosion humanity has ever seen. Through Project Aahar HHFC Trust is extending its support to the marginalized by providing food.</p><label
                                     for="project1">More Details</label>
                             </div>
                         </div>
@@ -419,10 +328,8 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Boshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Rahat Campign</h1>
+                                <p>The Rahat campaign of HHFC Trust is designed to reach out to poor and homeless people and ensure that they are well protected from the harsh winter.</p><label
                                     for="project2">More Details</label>
                             </div>
                         </div>
@@ -430,10 +337,8 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Coshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Project Poshak</h1>
+                                <p>The core objective of clothes distribution activities by HHFC Trust is to reduce the suffering of economically and socially backward people.</p><label
                                     for="project3">More Details</label>
                             </div>
                         </div>
@@ -441,21 +346,17 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Doshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
-                                    for="project4">More Details</label>
+                                <h1>Project Disha</h1>
+                                <p> Under this project, we spread awareness in slum areas about the importance of education and learning. We make people aware of their living standards.</p><label
+                                    for="project4">More Details</label> 
                             </div>
                         </div>
                     </div>
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Eoshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Project Swasthya</h1>
+                                <p>To create a healthy and fit society by popularizing preventive measures, HHFC Trust organizes awareness programs and health camps on various issues.</p><label
                                     for="project5">More Details</label>
                             </div>
                         </div>
@@ -463,10 +364,8 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Foshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Badhte Kadam</h1>
+                                <p>Under this project, we have taken up the responsibility of enrolling the maximum number of slum children of Patna in schools.</p><label
                                     for="project6">More Details</label>
                             </div>
                         </div>
@@ -474,10 +373,8 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Goshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Avsar 2.0</h1>
+                                <p>HHFC planned an online event platform for kids and adults to showcase their talent. The event consisted of content writings and art and craft.</p><label
                                     for="project7">More Details</label>
                             </div>
                         </div>
@@ -485,28 +382,21 @@
                     <div class="project-card">
                         <div class="pcard"><img src="images/child1.png" alt="">
                             <div class="p-info">
-                                <h1>Hoshak</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem veniam
-                                    blanditiis distinctio voluptatibus sequi odit et magnam est necessitatibus
-                                    voluptates nam ipsa debitis, impedit quis earum nobis aperiam corporis.</p><label
+                                <h1>Project Vanita</h1>
+                                <p> Helping Hands Friends Charitable Trust strongly feels the need to get children and young adults to understand the difference between good touch and bad touch.</p><label
                                     for="project8">More Details</label>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
+    
+    
+    
             </section>
-
+    
         </div>
-
-
-
-
-
     </section>
-
+    
     <div>
         <input type="checkbox" name="" id="project1">
         <div class="project-info">
@@ -514,22 +404,14 @@
                 <label for="project1">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project Poshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Project Aahar</h1>
+                    <p>The day hunger disappears, the world will see the greatest spiritual explosion humanity has ever seen. Through Project Aahar HHFC Trust is extending its support to the marginalized by providing food. Our volunteers work hard to provide food to the poor who starve on the road at night. Our objective is to reach all the needy people and provide them with the gift of food. We also distribute the leftover occasion food to the less fortunate once as we believe that Anna-Daan Seva is nectar for the poor. During Covid- 19 we also provided food packets and raw materials among them. Our only aim behind Project Aahar is to extend our helping hands to the underprivileged community to help counter poverty and hunger and establish a healthy community</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div>
         <input type="checkbox" name="" id="project2">
         <div class="project-info">
@@ -537,22 +419,14 @@
                 <label for="project2">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project roshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Rahat Campign</h1>
+                    <p>Winters are a tough time. The temperature dropping drastically and the bitterness of winter affects the vast majority of people in unimaginable ways. The Rahat campaign of HHFC Trust is designed to reach out to poor and homeless people and ensure that they are well protected from the harsh winter. We try to reach out to every person in need in areas of Patna, Muzaffarpur, and Chhapra and provide them with warm clothes and blankets. Our volunteers act not less than soldiers to reach every corner of the city.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div>
         <input type="checkbox" name="" id="project3">
         <div class="project-info">
@@ -560,22 +434,14 @@
                 <label for="project3">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project Joshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Project Poshak</h1>
+                    <p>Happiness doesn't result from what we receive but from what we donate. HHFC Trust believes that all we need is a true desire to make life better for others. Project Poshak aims to distribute old clothes in different regions of Bihar. The pleasure of fulfilling the basic requirements of people gives warmth to us. The core objective of clothes distribution activities by HHFC Trust is to reduce the suffering of economically and socially backward people. Throughout the year many people visit our organization to donate old clothes to the poor. We as an organization feel about the destitute and we ensure that nobody should suffer the lack of clothes.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div>
         <input type="checkbox" name="" id="project4">
         <div class="project-info">
@@ -583,22 +449,14 @@
                 <label for="project4">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project Poshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>project Disha</h1>
+                    <p>An Investment In Knowledge Pays The Best Interest! HHFC Trust believes that education is the weapon that cuts down all barriers. Under this project, we spread awareness in slum areas about the importance of education and learning. We make people aware of their living standards. Project Disha aims to support academic, health, and social links between urban and rural areas by meeting the principle of human development goals. Our goal is to connect the under-privileged class to middle and higher-class people. HHFC Trust's main intent is to transform the lives of the slum children through education and provide them with the best. Our program gives support to many children from the slums and helps them overcome all hindrances and attain a quality education and develop their potential to lead a respectful life.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div>
         <input type="checkbox" name="" id="project5">
         <div class="project-info">
@@ -606,23 +464,15 @@
                 <label for="project5">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project roshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Project Swasthya</h1>
+                    <p>Being healthy and fit isn't a fad or a trend, it's a lifestyle. To create a healthy and fit society by popularizing preventive measures, HHFC Trust organizes awareness programs and health camps on various issues. We bring necessary healthcare to the children, women, and poor in slum areas. These sessions and camps are organized in coordination with renowned healthcare institutions under expert professionals. They visit our centers for checkups of the children. Project Swasthya provides patients with free medical consultations. The ongoing dental check-up is a part of our program. Our project encourages preventive health, balanced nutrition, and child and women development in underprivileged settlements. We ensure that the program may reach the maximum number of people so that our mission to build an account table and sustainable health ecosystem is acquired.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
-
+    
+    
     <div>
         <input type="checkbox" name="" id="project6">
         <div class="project-info">
@@ -630,22 +480,14 @@
                 <label for="project6">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project roshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Badhte Kadam</h1>
+                    <p>The development of the life cycle starts with making a path of education for children. Badhate Kadam is an initiative by HHFC Trust that started in 2021. Under this project, we have taken up the responsibility of enrolling the maximum number of slum children of Patna in schools. We also provide each child with stationery and take up the responsibility for their expenses. A Nation's growth and prosperity depend upon its youth. With this vision, we believe that one day these little stars will brighten up the world with their success stories. This initiative is a noble contribution by HHFC Trust to raise young brilliant minds. To date, we have successfully enrolled 60 slum kids in school. We take pride in shaping these kids for their bright future.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div>
         <input type="checkbox" name="" id="project7">
         <div class="project-info">
@@ -653,23 +495,15 @@
                 <label for="project7">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project roshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Avsar 2.0</h1>
+                    <p>Co curricular activities help us in developing critical abilities and skills to think more logically and work effectively. During pandemic, people were in a devastating phase and they were finding escape from the monotonous situation. So we at HHFC planned an online event platform for kids and adults to showcase their talent. The event consisted of content writings and art and craft. Winners from all the groups were awarded and all the participants were given certificates for their amazing works. We were delighted by their response.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
-
+    
+    
     <div>
         <input type="checkbox" name="" id="project8">
         <div class="project-info">
@@ -677,329 +511,356 @@
                 <label for="project8">CLOSE</label>
                 <div class="p-info-image"><img src="images/child1.png" alt=""></div>
                 <div class="p-info-right">
-                    <h1>Project Voshak</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque similique laborum repellendus
-                        labore voluptas fugiat earum unde excepturi quis! Mollitia, rem iusto neque rerum quidem
-                        tempora! Modi consequuntur magni perspiciatis tenetur dignissimos labore veniam cumque possimus?
-                        Tempore eveniet delectus necessitatibus labore obcaecati, ducimus hic saepe ullam quo impedit
-                        nulla ratione vitae iure nesciunt perferendis fugiat veritatis libero et distinctio nemo
-                        voluptatem tenetur asperiores? Praesentium non dolore sapiente sed doloribus provident maxime
-                        molestias nesciunt aspernatur illo sequi minus eos, consequatur, quaerat molestiae natus quas
-                        deserunt et dicta corrupti neque adipisci eveniet. Aliquid quidem enim necessitatibus voluptatem
-                        obcaecati asperiores odit repellendus expedita.</p>
+                    <h1>Project Vanita</h1>
+                    <p>Sex education is essential to create healthy self-knowledge and reconciliation, healthy conversation, mindsets, and lifestyles. Helping Hands Friends Charitable Trust strongly feels the need to get children and young adults to understand the difference between good touch and bad touch. Therefore we have started counseling and teaching moral values to children and making them understand right and wrong. We also teach them how to tackle these situations if faced through self-defense activities. Through our Project Vanita, we organize preventive programs and sensitively offer appropriate knowledge. Not only this we also create awareness of different aspects of menstruation for girls and women through seminars and workshops. We are working towards breaking the shame and silence about menstruation in rural and slum areas by addressing their menstrual hygiene challenges by establishing menstruation as normal in rural culture. Adding to this project we are planning for livelihood and providing sanitary pads at a portable price to women of all slums.</p>
                     <span></span>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-    <section class="team-main" id="team">
-        <div class="team-head">
-            <h2>Meet Our</h2>
-            <h1>Team</h1>
-        </div>
-        <div class="team-body">
-            <div class="team-body-left">
-                <img src="images/teampic.png" alt="">
+    
+    
+    
+    
+        <section class="team-main" id="team">
+            <div class="team-head">
+                <h2>Meet Our</h2>
+                <h1>Team</h1>
             </div>
-            <div class="team-body-right">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusantium quidem reiciendis
-                    commodi, vitae nobis modi id animi eius explicabo, autem, fugit consequatur corrupti enim?</p>
-                <div class="team-btn"><a href="team.html"  target=”_blank”>Detail</a></div>
+            <div class="team-body">
+                <div class="team-body-left">
+                    <img src="images/teampic.png" alt="">
+                </div>
+                <div class="team-body-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusantium quidem reiciendis
+                        commodi, vitae nobis modi id animi eius explicabo, autem, fugit consequatur corrupti enim?</p>
+                    <div class="team-btn"><a href="team.html"  target=”_blank”>Detail</a></div>
+                </div>
             </div>
-        </div>
-        <div class="team-bottom"></div>
-    </section>
-
-
-    <section class="sepcial-day-main">
-        <div class="special-day-head">
-            <span class="line line1"></span>
-            <div class="special-heading">Special Day</div>
-            <div class="gif"><img src="images/des1.gif" alt=""></div>
-            <span class="line line2"></span>
-        </div>
-        <div class="special-day-body">
-            <div class="special-day-left">
-                <img src="images/christmas celeb.jpg" alt="">
+            <div class="team-bottom"></div>
+        </section>
+    
+    
+        <section class="sepcial-day-main">
+            <div class="special-day-head">
+                <span class="line line1"></span>
+                <div class="special-heading">Special Day</div>
+                <div class="gif"><img src="images/des1.gif" alt=""></div>
+                <span class="line line2"></span>
             </div>
-            <div class="special-day-center">
-                <p>We, HHFCians are here to celebrate<br>your special day with you.</p>
-                <h1>Select Your Package</h1>
-                <div class="special-day-container">
-                    <div class="container container1">
-                        <h3>Package 1</h3>
-                        <span>
-                            <h2>Rs 1100</h2>
-                            1. Cake <br>
-                            2. Biscuit <br>
-                            3. Pencil <br>
-                            <label for="special1">Celebrate Now</label>
-                        </span>
+            <div class="special-day-body">
+                <div class="special-day-left">
+                    <img src="images/christmas celeb.jpg" alt="">
+                </div>
+                <div class="special-day-center">
+                    <p>We, HHFCians are here to celebrate<br>your special day with you.</p>
+                    <h1>Select Your Package</h1>
+                    <div class="special-day-container">
+                        <div class="container container1">
+                            <h3>Package 1</h3>
+                            <span>
+                                <h2>Rs 1100</h2>
+                                1. Cake <br>
+                                2. Biscuit <br>
+                                3. Pencil <br>
+                                <label for="special1">Celebrate Now</label>
+                            </span>
+                        </div>
+                        <div class="container container2">
+                            <h3>Package 2</h3>
+                            <span>
+                                <h2>Rs 2100</h2>
+                                1. Cake <br>
+                                2. Copy <br>
+                                3. Pencil <br>
+                                4. Eraser <br>
+                                <label for="special2">Celebrate Now</label>
+                            </span>
+                        </div>
+                        <div class="container container3">
+                            <h3>Package 3</h3>
+                            <span>
+                                <h2>Rs 4100</h2>
+                                1. Cake <br>
+                                2. 50 Pkt Food <br>
+                                3. Pencil <br>
+                                4. Eraser <br>
+                                <label for="special3">Celebrate Now</label>
+                            </span>
+                        </div>
                     </div>
-                    <div class="container container2">
-                        <h3>Package 2</h3>
-                        <span>
-                            <h2>Rs 2100</h2>
-                            1. Cake <br>
-                            2. Copy <br>
-                            3. Pencil <br>
-                            4. Eraser <br>
-                            <label for="special2">Celebrate Now</label>
-                        </span>
+                </div>
+                <div class="special-day-right"><img src="images/balloon.png" alt=""></div>
+            </div>
+        </section>
+    
+    
+    
+    
+        <section class="achivement" id="achievement">
+            <div class="achive-Heading">
+                <h1 class="h1">Our</h1>
+                <h1 class="h2">Achivements</h1>
+    
+            </div>
+            <div class="achive-main">
+                <div class="achive-main-left">
+                    <div class="achieve-p">
+                        " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. "
                     </div>
-                    <div class="container container3">
-                        <h3>Package 3</h3>
-                        <span>
-                            <h2>Rs 4100</h2>
-                            1. Cake <br>
-                            2. 50 Pkt Food <br>
-                            3. Pencil <br>
-                            4. Eraser <br>
-                            <label for="special3">Celebrate Now</label>
-                        </span>
+                    <div class="achive-box"></div>
+                </div>
+                <div class="achive-main-right">
+                    <div class="achive-main-img">
+                        <div class="achive-right-img fade">
+                            <img src="images/ac1.png" alt="">
+                        </div>
+                        <div class="achive-right-img fade">
+                            <img src="images/ac2.png" alt="">
+                        </div>
+                        <div class="achive-right-img fade">
+                            <img src="images/ac3.png" alt="">
+                        </div>
+                        <div class="achive-right-img fade">
+                            <img src="images/ac4.png" alt="">
+                        </div>
+                        <div class="achive-right-img fade">
+                            <img src="images/ac5.png" alt="">
+                        </div>
+                    </div>
+                    <br>
+    
+                    <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- <section class="last-quote"  id="last-quote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+        </section> -->
+    
+    
+        <div>
+            <input type="checkbox" name="" id="donate">
+            <label for="donate" class="payment">
+                <div class="donate-pay">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_K49y1d2DTM2lyp" async> </script>
+                    </form>
+                </div>
+            </label>
+        </div>
+    
+    
+        <div>
+            <input type="checkbox" name="" id="register">
+            <label for="register" class="payment">
+                <div class="donate-pay">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
+                    </form>
+                </div>
+            </label>
+        </div>
+    
+        <div>
+            <input type="checkbox" name="" id="special1">
+            <label for="special1" class="payment">
+                <div class="donate-pay">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_K4FgV3utMhPWxS" async> </script>
+                    </form>
+                </div>
+            </label>
+        </div>
+    
+        <div>
+            <input type="checkbox" name="" id="special2">
+            <label for="special2" class="payment">
+                <div class="donate-pay">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_K4FzGnewFIHwC6" async> </script>
+                    </form>
+                </div>
+            </label>
+        </div>
+    
+        <div>
+            <input type="checkbox" name="" id="special3">
+            <label for="special3" class="payment">
+                <div class="donate-pay">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_K4GJpV0qAvtok5" async> </script>
+                    </form>
+                </div>
+            </label>
+        </div>
+    
+    
+    
+        <section class="partners" id="Partners">
+            <div class="special-day-head">
+                <span class="line line1"></span>
+                <div class="special-heading">Our Partners</div>
+                <div class="gif"><img src="images/des1.gif" alt=""></div>
+                <span class="line line2"></span>
+            </div>
+            <div class="partners-body">
+                <div class="partners-left"><img src="images/partners-design.png" alt=""></div>
+                <div class="partners-right"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore id vel officiis consequuntur voluptates tempora laboriosam exercitationem nihil et cumque asperiores magnam animi, aperiam in cum. Nobis, porro ea.</p><a href="partners.html"  target=”_blank”>Learn more</a></div>
+    
+            </div>
+        </section>
+    
+    
+    
+    
+        <div class="last-quote">
+            <!-- <img src="images/last-quote.png" alt=""> -->
+        </div>
+    
+    
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>HHFC</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">donation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">HHFC Media</a></li>
+                            <li><a href="#">Rakta Raisers</a></li>
+                            <li><a href="#">Terms&Rules</a></li>
+                            <li><a href="#">Regn No.9012/19</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="special-day-right"><img src="images/balloon.png" alt=""></div>
-        </div>
-    </section>
-
-
-
-
-    <section class="achivement" id="achievement">
-        <div class="achive-Heading">
-            <h1 class="h1">Our</h1>
-            <h1 class="h2">Achivements</h1>
-
-        </div>
-        <div class="achive-main">
-            <div class="achive-main-left">
-                <div class="achieve-p">
-                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. "
-                </div>
-                <div class="achive-box"></div>
-            </div>
-            <div class="achive-main-right">
-                <div class="achive-main-img">
-                    <div class="achive-right-img fade">
-                        <img src="images/ac1.png" alt="">
-                    </div>
-                    <div class="achive-right-img fade">
-                        <img src="images/ac2.png" alt="">
-                    </div>
-                    <div class="achive-right-img fade">
-                        <img src="images/ac3.png" alt="">
-                    </div>
-                    <div class="achive-right-img fade">
-                        <img src="images/ac4.png" alt="">
-                    </div>
-                    <div class="achive-right-img fade">
-                        <img src="images/ac5.png" alt="">
-                    </div>
-                </div>
-                <br>
-
-                <div style="text-align:center">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- <section class="last-quote"  id="last-quote">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
-    </section> -->
-
-
-    <div>
-        <input type="checkbox" name="" id="donate">
-        <label for="donate" class="payment">
-            <div class="donate-pay">
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
-                <form>
-                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                        data-payment_button_id="pl_K49y1d2DTM2lyp" async> </script>
-                </form>
-            </div>
-        </label>
-    </div>
-
-
-    <div>
-        <input type="checkbox" name="" id="register">
-        <label for="register" class="payment">
-            <div class="donate-pay">
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
-                <form>
-                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                        data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
-                </form>
-            </div>
-        </label>
-    </div>
-
-    <div>
-        <input type="checkbox" name="" id="special1">
-        <label for="special1" class="payment">
-            <div class="donate-pay">
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
-                <form>
-                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                        data-payment_button_id="pl_K4FgV3utMhPWxS" async> </script>
-                </form>
-            </div>
-        </label>
-    </div>
-
-    <div>
-        <input type="checkbox" name="" id="special2">
-        <label for="special2" class="payment">
-            <div class="donate-pay">
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
-                <form>
-                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                        data-payment_button_id="pl_K4FzGnewFIHwC6" async> </script>
-                </form>
-            </div>
-        </label>
-    </div>
-
-    <div>
-        <input type="checkbox" name="" id="special3">
-        <label for="special3" class="payment">
-            <div class="donate-pay">
-                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate</h2>
-                <form>
-                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                        data-payment_button_id="pl_K4GJpV0qAvtok5" async> </script>
-                </form>
-            </div>
-        </label>
-    </div>
-
-
-
-    <section class="partners" id="Partners">
-        <div class="special-day-head">
-            <span class="line line1"></span>
-            <div class="special-heading">Our Partners</div>
-            <div class="gif"><img src="images/des1.gif" alt=""></div>
-            <span class="line line2"></span>
-        </div>
-        <div class="partners-body">
-            <div class="partners-left"><img src="images/partners-design.png" alt=""></div>
-            <div class="partners-right"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore id vel officiis consequuntur voluptates tempora laboriosam exercitationem nihil et cumque asperiores magnam animi, aperiam in cum. Nobis, porro ea.</p><a href="partners.html"  target=”_blank”>Learn more</a></div>
-
-        </div>
-    </section>
-
-
-
-
-    <div class="last-quote">
-        <!-- <img src="images/last-quote.png" alt=""> -->
-    </div>
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>HHFC</h4>
-                    <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">contact us</a></li>
-                        <li><a href="#">donation</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">hhfc media</a></li>
-                        <li><a href="#">rakta raisers</a></li>
-                        <li><a href="#">terms & rules</a></li>
-                        <li><a href="#">Regn No.9012/19</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-    <script>
-        //project
-        const projectContainers = [...document.querySelectorAll('.project-container')];
-        const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-        const preBtn = [...document.querySelectorAll('.pre-btn')];
-        const pinfo = [...document.querySelectorAll('.p-info')];
-
-        projectContainers.forEach((item, i) => {
-            let containerDimensions = item.getBoundingClientRect();
-            let containerWidth = containerDimensions.width;
-
-            nxtBtn[i].addEventListener('click', () => {
-                item.scrollLeft += containerWidth - 150;
+        </footer>
+    
+    
+    
+        <script>
+            var lastscrolltop = 0;
+            navbar = document.getElementById("nav-main");
+            // nav5=document.getElementsByTagName("nav");
+            window.addEventListener("scroll", function () {
+                var scrolltop = window.pageYOffset || document.documentElement.scrollTop;
+                if (scrolltop > lastscrolltop) {
+                    navbar.style.top = "-15vh";
+                    // nav5.style.top="-15vh";  
+                }
+                else {
+                    navbar.style.top = "1vh";
+                    // nav5.style.top="1vh";
+                }
+                lastscrolltop = scrolltop;
             })
-
-            preBtn[i].addEventListener('click', () => {
-                item.scrollLeft -= containerWidth - 100;
-            })
-        })
-
-        //achievement
-
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("achive-right-img");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            //video
+            window.onload = function () {
+                document.getElementById("autoplay").play();
             }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+    
+            document.getElementById("home") = nav();
+    
+            function nav() {
+                document.getElementById("nav-btn").click();
             }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 3000); // Change image every 2 seconds
-        }
-
-        window.onload=function(){
-            document.getElementById("autoplay").play();
-        }
-    </script>
+    
+            function test() {
+                document.getElementById("home-test").click();
+            }
+    
+            function nav1() {
+                document.getElementById("nav-btn1").click();
+            }
+    
+            function nav2() {
+                document.getElementById("nav-btn2").click();
+            }
+    
+    
+            //project
+            const projectContainers = [...document.querySelectorAll('.project-container')];
+                const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+                const preBtn = [...document.querySelectorAll('.pre-btn')];
+                const pinfo = [...document.querySelectorAll('.p-info')];
+        
+                projectContainers.forEach((item, i) => {
+                    let containerDimensions = item.getBoundingClientRect();
+                    let containerWidth = containerDimensions.width;
+        
+                    nxtBtn[i].addEventListener('click', () => {
+                        item.scrollLeft += containerWidth;
+                    })
+        
+                    preBtn[i].addEventListener('click', () => {
+                        item.scrollLeft -= containerWidth;
+                    })
+                })
+    
+            //achievement
+    
+            let slideIndex = 0;
+            showSlides();
+    
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("achive-right-img");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
+        </script>
+    
 </body>
-
 </html>
