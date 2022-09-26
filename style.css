@@ -1895,7 +1895,7 @@ input {
     justify-content: center;
     align-items: center;
     font-family: "Baloo 2";
-    font-size: 5vh;
+    font-size: 4vh;
     position: relative;
     top: -10vh;
 }
@@ -2061,21 +2061,23 @@ input {
 
     .special-day-body .special-day-center p {
         height: 40vh;
-        width: 95vw;
+        width: 110vw;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         font-family: "Baloo 2";
-        font-size: 3vh;
+        font-size: 4vh;
+        font-weight: bold;
         padding-inline-start: 3vw;
         line-height: 5.5vh;
         position: relative;
+        left: -3.4vh;
         top: -5vh;
     }
 
     .special-day-body .special-day-center h1{
-        font-size: 4.5vh;
+        font-size: 3.5vh;
         width: 100vw;
         position: relative;
         top: -10vh;
