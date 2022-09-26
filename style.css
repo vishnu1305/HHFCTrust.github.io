@@ -88,14 +88,11 @@ nav a {
 .home-nav {
     width: 7.4vw;
     height: 13vh;
-    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 2.2vw;
     cursor: pointer;
-    /* color: #fff;
-    background-color: #f9c041; */
     transition: all .3s;
 }
 
@@ -108,14 +105,6 @@ nav a {
     transition: all .3s;
 }
 
-/* .hey{
-    height: 13vh;
-} */
-
-/* input[type="radio"]{
-    display: block;
-    visibility: visible;
-} */
 
 #navigation:checked ~ .home-nav{
     color: #fff;
@@ -127,19 +116,13 @@ nav a {
 }
 
 
-/* #home:focus-visible ~ .home-nav{
-    background-color: #f9c041;
-    color: #fff;
-} */
 
 .about-nav {
     width: 7.5vw;
     height: 13vh;
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-left: vw; */
     letter-spacing: -1px;
     transition: .3s;
     transition: all .3s;
@@ -167,7 +150,6 @@ nav a {
 .project-nav {
     width: 6.4vw;
     height: 13vh;
-    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +179,6 @@ nav a {
 .achievement-nav{
     width: 10vw;
     height: 13vh;
-    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,7 +207,6 @@ nav a {
 .team-nav {
     width: 7.8vw;
     height: 13vh;
-    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +234,6 @@ nav a {
 .partner-nav {
     width: 6.5vw;
     height: 13vh;
-    /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,7 +261,6 @@ nav a {
 
 .rakt-nav {
     width: 9vw;
-    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +274,6 @@ nav a {
     align-items: center;
     height: 6vh;
     margin-left: 72vw;
-    /* text-shadow: 0px 0px 50px #000; */
     font-weight: 500;
 
 }
@@ -313,17 +290,13 @@ nav a {
 
 @media (max-width:950px) {
     body {
-        /* background-image: url("design/homepagedesign.png"); */
         background-size: cover;
-        /* opacity: 0.7; */
         width: 100vw;
     }
 
     .navbar {
         width: 100vw;
-        /* background-color: #f9c041; */
         height: 8vh;
-        /* background-color: #2c5e74; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -351,7 +324,6 @@ nav a {
     }
 
     nav {
-        /* display: none; */
         height: 115vh;
         width: 100vw;
         top: 0;
@@ -430,8 +402,6 @@ nav a {
         flex-direction: column;
         position: relative;
         left: 2vw;
-        /* background-color: #000; */
-        /* z-index: 110; */
     }
 
     .hamburger div {
@@ -440,7 +410,6 @@ nav a {
         border-radius: 25px;
         background-color: #000;
         margin: 0.37vh;
-        /* z-index: 110; */
     }
 
     .donate{
@@ -475,22 +444,18 @@ nav a {
 .home-main {
     height: 85vh;
     width: 100vw;
-    /* background-color: aqua; */
-    /* opacity: 0.7; */
     display: flex;
 }
 
 .home-left {
     height: inherit;
     width: 55vw;
-    /* background-color: #000; */
 }
 
 
 .hhfc-design {
     width: inherit;
     height: 35vh;
-    /* background-color: #d5d5d5; */
     display: flex;
 }
 
@@ -563,7 +528,6 @@ nav a {
     font-size: 6vh;
     display: flex;
     justify-content: center;
-    /* font-family: 'Amatic SC', cursive; */
     align-items: center;
     color: #fff;
     box-shadow: 2px 2px;
@@ -572,7 +536,6 @@ nav a {
 .hhfc-quote {
     height: 23vh;
     width: inherit;
-    /* background-color: #f9c041; */
     font-family: 'Lobster Two', cursive;
     font-size: 7vh;
     text-align: center;
@@ -585,7 +548,6 @@ nav a {
 .register-btn-design {
     height: 17vh;
     width: inherit;
-    /* background-color: #d5d5d5; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -628,7 +590,6 @@ nav a {
 .site-name {
     height: 10vh;
     width: inherit;
-    /* background-color: #2c5e74; */
     font-size: 3.5vh;
     font-family: "Baloo 2";
     padding-left: 5vw;
@@ -638,7 +599,6 @@ nav a {
 .home-right {
     height: inherit;
     width: 45vw;
-    /* background-color: #2c5e74; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -646,8 +606,6 @@ nav a {
 
 .home-right video {
     height: 75vh;
-    /* background-image: url(images/hhfc-video.mp4); */
-    /* box-shadow: 1px 7px 32px -18px rgba(0,0,0,0.62); */
 }
 
 
@@ -679,7 +637,6 @@ nav a {
 .donate-pay h2{
     height: 20vh;
     width: inherit;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     text-align: center;
     display: flex;
@@ -719,9 +676,7 @@ nav a {
         height: 100vh;
         position: relative;
         top: 10vh;
-        /* background-image: url("design/homepagedesign.png"); */
         background-position-y: -5.8vh;
-        /* top: 12vh; */
     }
 
     .home-right {
@@ -736,7 +691,6 @@ nav a {
     }
 
     .home-left {
-        /* display: none; */
         width: 100vw;
         height: 50vh;
     }
@@ -787,16 +741,13 @@ nav a {
     }
 
     .hhfc-quote {
-        /* display: none; */
         height: 10vh;
         font-size: 3vh;
         line-height: 2.5vh;
-        /* justify-content: flex-start; */
         padding-bottom: 3.5vh;
     }
 
     .register-btn-design {
-        /* display: none; */
         height: 5vh;
     }
 
@@ -818,7 +769,6 @@ nav a {
     }
 
     .site-name {
-        /* display: none; */
         height: 5vh;
         font-size: 2vh;
         display: flex;
@@ -848,12 +798,9 @@ nav a {
 
 .about-us h1 {
     height: 50vh;
-    /* width: 100; */
     opacity: 0.7;
-    /* background-color: #2c5e74; */
     font-size: 12vh;
     font-family: "Baloo 2";
-    /* font-weight: 300; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -874,7 +821,6 @@ nav a {
     .about-us {
         background-image: url("images/bg1.png");
         background-size: 75vh;
-        /* background-position-y: 5vh; */
         background-repeat: no-repeat;
         height: 30vh;
     }
@@ -891,7 +837,6 @@ nav a {
         font-size: 1.5vh;
         width: 90vw;
         line-height: 2vh;
-        /* margin-top: 0; */
         position: relative;
         top: 4vh;
     }
@@ -919,8 +864,6 @@ nav a {
 .whatwedo-head .h1 {
     height: inherit;
     width: 28vw;
-    /* background-color: #2c5e74; */
-    /* opacity: 0.7; */
     font-size: 8.2vh;
     font-family: "Baloo 2";
     font-weight: 900;
@@ -934,12 +877,9 @@ nav a {
 .whatwedo-head .h2 {
     height: inherit;
     width: 10vw;
-    /* background-color: #555; */
-    /* opacity: 0.7; */
     font-size: 8.2vh;
     font-family: "Baloo 2";
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding-top: 3vh;
     padding-inline-start: 0.5vw;
@@ -949,7 +889,6 @@ nav a {
 .whatwedo-body {
     height: 80vh;
     width: 100vw;
-    /* background-image: url("design/whatwedo.png"); */
     background-size: 170vh;
     background-position: center;
     background-position-y: top;
@@ -959,15 +898,12 @@ nav a {
 .whatwedo-body .content1 {
     height: 40vh;
     width: inherit;
-    /* background-color: aqua; */
-    /* opacity: 0.7; */
     display: flex;
 }
 
 .content1 .education-wrapper {
     height: inherit;
     width: 33vw;
-    /* background-color: aliceblue; */
 }
 
 .education-card {
@@ -985,7 +921,6 @@ nav a {
 .medical-wrapper {
     height: inherit;
     width: 33vw;
-    /* background-color: #f9c041; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1001,7 +936,6 @@ nav a {
 .food-wrapper {
     height: inherit;
     width: 34vw;
-    /* background-color: aqua; */
 }
 
 .food-card {
@@ -1013,7 +947,6 @@ nav a {
 .cards {
     height: 30vh;
     width: 16vw;
-    /* background-color: #000; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -1032,7 +965,6 @@ nav a {
 .img {
     height: 23vh;
     width: inherit;
-    /* background-color: #f9c041; */
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1046,7 +978,6 @@ nav a {
 .cards h1 {
     height: 4.5vh;
     width: inherit;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     font-size: 2.5vh;
     display: flex;
@@ -1057,7 +988,7 @@ nav a {
 .cards .line {
     height: 0.3vh;
     width: 3vw;
-    background-color: #f9c041;
+    background-color: #2c5e74;
 }
 
 .cards:hover>.img>img {
@@ -1078,16 +1009,12 @@ nav a {
     .whatwedo-head .h1 {
         height: inherit;
         width: 50vw;
-        /* background-color: #2c5e74; */
-        /* opacity: 0.7; */
         font-size: 4vh;
         font-family: "Baloo 2";
         font-weight: 900;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        /* padding-top: -3vh; */
-        /* padding-right: 2vh; */
         margin-left: 13vw;
         position: relative;
         top: -3vh;
@@ -1096,12 +1023,9 @@ nav a {
     .whatwedo-head .h2 {
         height: inherit;
         width: 41vw;
-        /* background-color: #555; */
-        /* opacity: 0.7; */
         font-size: 6vh;
         font-family: "Baloo 2";
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         padding-top: 3vh;
         padding-inline-start: 0.5vw;
@@ -1197,9 +1121,7 @@ HIDDEN INFO */
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    /* display: none; */
     visibility: hidden;
-    /* transition: all 10s ease-in-out; */
 }
 
 input {
@@ -1214,7 +1136,6 @@ input {
     background-color: #fff;
     justify-content: center;
     align-items: center;
-    /* opacity: 0.2; */
     border-radius: 10px;
 }
 
@@ -1222,18 +1143,10 @@ input {
     height: 30vh;
 }
 
-/* .education-card{
-    position: fixed;
-    top: 10vh;
-    left: 40vw;
-    z-index: 2000;
-} */
-
 .education-card-info {
     position: relative;
     top: -10vh;
     z-index: 1000;
-    /* left: 24vw; */
 }
 
 
@@ -1243,11 +1156,8 @@ input {
     width: 75%;
     padding: 0 2vw;
     display: flex;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     font-size: 3vh;
-    /* margin-left: 12vw; */
-    /* margin-bottom: 10vh; */
     overflow: scroll;
     margin: 5vh;
     text-align: justify;
@@ -1422,14 +1332,11 @@ input {
 .project-left {
     height: inherit;
     width: 40vw;
-    /* background-color: #2c5e74; */
-    /* opacity: 0.7; */
 }
 
 .project-left h1 {
     height: 27vh;
     width: inherit;
-    /* background-color: #f9c041; */
     font-size: 8vh;
     padding-left: 5vw;
     word-spacing: 0.7vw;
@@ -1442,7 +1349,6 @@ input {
 .project-left h2 {
     height: 17vh;
     width: inherit;
-    /* background-color: #fff; */
     font-size: 16vh;
     font-family: "Baloo 2";
     font-weight: 900;
@@ -1454,7 +1360,6 @@ input {
 .project-left p {
     height: 30vh;
     width: inherit;
-    /* background-color: #f9c041; */
     font-size: 3vh;
     font-family: "Baloo 2";
     padding: 0 5.5vw;
@@ -1464,7 +1369,7 @@ input {
 .project-left .line-box {
     height: 3vh;
     width: 6.4vw;
-    background-color: #f9c041;
+    background-color: #2c5e74;
     margin-top: 2vh;
     margin-left: 4.7vw;
 }
@@ -1472,8 +1377,6 @@ input {
 .project-right {
     height: inherit;
     width: 60vw;
-    /* background-color: #888; */
-    /* opacity: 0.7; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1490,7 +1393,6 @@ input {
     position: relative;
     overflow: hidden;
     padding: 20px;
-    /* background-color: #000; */
 }
 
 
@@ -1507,11 +1409,9 @@ input {
 }
 
 .project-card {
-    /* flex: 0 0 auto; */
     width: 16vw;
     height: 45vh;
     margin-right: 1.6vw;
-    /* overflow-y  : hidden; */
 }
 
 .project-card .pcard {
@@ -1524,7 +1424,6 @@ input {
 .pcard img {
     height: inherit;
     width: inherit;
-    /* transition: all .3s ease; */
 }
 
 
@@ -1535,7 +1434,6 @@ input {
     position: relative;
     opacity: 0.7;
     top: -6vh;
-    /* bottom: 2vh; */
     transition: all .5s ease;
     color: #f1f1f1;
     display: flex;
@@ -1545,7 +1443,6 @@ input {
 
 .p-info h1 {
     height: 5vh;
-    /* background-color: #f9c041; */
     font-family: "Baloo 2";
     display: flex;
     font-size: 3vh;
@@ -1554,7 +1451,6 @@ input {
 
 .p-info p {
     height: 25vh;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     text-align: center;
     font-size: 2vh;
@@ -1597,7 +1493,6 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* left: -5vw; */
     cursor: pointer;
     z-index: 8;
 }
@@ -1606,15 +1501,12 @@ input {
     left: -2vw;
     top: 45%;
     transform: rotate(180deg);
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 0%);  */
     background-color: rgba(0, 0, 0, 0);
 }
 
 .nxt-btn {
-    /* right: 0; */
     left: -2vw;
     top: 30%;
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f9c041 0%);  */
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -1635,7 +1527,6 @@ input {
     position: fixed;
     visibility: hidden;
     top: 0;
-    /* opacity: 0.7; */
     background-color: rgba(0, 0, 0, 0.85);
     z-index: 1000;
     display: flex;
@@ -1671,7 +1562,6 @@ input {
 .p-info-image {
     height: inherit;
     width: 20vw;
-    /* background-color: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1689,22 +1579,18 @@ input {
 .p-info-right {
     height: inherit;
     width: 50vw;
-    /* background-color: #f9c041; */
 }
 
 .p-info-right h1 {
     height: 20vh;
-    /* background-color: #555; */
     font-family: "Baloo 2";
     font-size: 5vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .p-info-right p {
     height: 40vh;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     font-size: 2.5vh;
     width: 45vw;
@@ -1912,7 +1798,6 @@ input {
 .sepcial-day-main {
     height: 100vh;
     width: 100vw;
-    /* background-image: url("design/specialdaydesign.png"); */
     background-size: cover;
     margin-top: 5vh;
 }
@@ -1920,12 +1805,7 @@ input {
 .special-day-head {
     height: 15vh;
     width: inherit;
-    /* background-color: #2c5e74; */
-    /* background-image: url("images/bg4.jfif"); */
-    /* background-position-y: -10vh; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
-    /* opacity: 0.8; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1971,17 +1851,13 @@ input {
     top: -10vh;
     height: 80vh;
     width: 100vw;
-    /* background-color: #000; */
-    /* opacity: 0.8; */
     display: flex;
 }
 
 .special-day-left {
     height: inherit;
     width: 30vw;
-    /* background-color: #f1f1f1; */
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -1997,13 +1873,11 @@ input {
 .special-day-center {
     height: inherit;
     width: 45.5vw;
-    /* background-color: aqua; */
 }
 
 .special-day-center p {
     height: 40vh;
     width: inherit;
-    /* background-color: #2c5e74; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2016,9 +1890,7 @@ input {
 .special-day-center h1 {
     height: 10.5vh;
     width: inherit;
-    /* background-color: #888; */
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     font-family: "Baloo 2";
@@ -2030,7 +1902,6 @@ input {
 .special-day-center .special-day-container{
     height: 40vh;
     width: inherit;
-    /* background-color: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2046,7 +1917,6 @@ input {
     overflow-y: hidden;
     position: relative;
     top: -10vh;
-    /* display: block; */
 }
 
 .container h3{
@@ -2120,7 +1990,6 @@ input {
 .special-day-right{
     height: inherit;
     width: 24.5vw;
-    /* background-color: #f9c041; */
     display: flex;
     justify-content: center;
 }
@@ -2167,7 +2036,6 @@ input {
         width: 100vw;
         height: 100vh;
         position: relative;
-        /* top */
     }
 
     .special-day-body .special-day-left{
@@ -2193,7 +2061,6 @@ input {
     .special-day-body .special-day-center p {
         height: 40vh;
         width: 95vw;
-        /* background-color: #2c5e74; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2314,7 +2181,6 @@ input {
     }
     .project{
         width: 100vw;
-        /* padding: 0; */
     }
 
     .project-card{
@@ -2337,10 +2203,8 @@ input {
     }
 
     .nxt-btn {
-        /* right: 0; */
         left: 90vw;
         top: 45%;
-        /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f9c041 0%); */
         background-color: rgba(0, 0, 0, 0);
     }
 
@@ -2351,7 +2215,6 @@ input {
 
         .p-info-image img {
             height: 27vh;
-            /* width: 30vw; */
             border: 1px solid #000;
             border-radius: 35px;
             box-shadow: 1px 2px 10px 2px #000;
@@ -2364,7 +2227,6 @@ input {
         font-size: 4vh;
         line-height: 4vh;
         position: relative;
-        /* left: -0vw; */
         width: 70vw;
         top: 10vh;
     }
@@ -2452,7 +2314,6 @@ input {
         background-color: #fff;
         justify-content: center;
         align-items: center;
-        /* opacity: 0.2; */
         border-radius: 10px;
     }
 
@@ -2500,9 +2361,7 @@ input {
 
 .team-main {
     height: 100vh;
-    /* margin-top:30vh; */
     width: 100vw;
-    /* background-image: url("images/bg3.jfif"); */
     background-size: cover;
 }
 
@@ -2510,8 +2369,6 @@ input {
 
 .team-head {
     height: 30vh;
-    /* background-color: #2c5e74; */
-    /* opacity: 0.7; */
     display: flex;
     justify-content: flex-end;
 }
@@ -2519,11 +2376,9 @@ input {
 .team-head h2 {
     height: inherit;
     width: 25vw;
-    /* background-color: aqua; */
     font-family: "Baloo 2";
     font-size: 9vh;
     display: flex;
-    /* padding-top: 5vh; */
     justify-content: flex-end;
     align-items: center;
 }
@@ -2536,23 +2391,18 @@ input {
     color: #f9c041;
     display: flex;
     align-items: center;
-    /* padding-top: 5vh; */
     padding-left: 2vw;
 }
 
 .team-body {
     height: 58vh;
     width: 100vw;
-    /* background-color: #fff; */
-    /* opacity: 0.7; */
     display: flex;
 }
 
 .team-body-left {
     height: 70vh;
     width: 55vw;
-    /* background-color: #555; */
-    /* opacity: 0.7; */
 }
 
 .team-body-left img {
@@ -2565,7 +2415,6 @@ input {
 
 .team-body-right {
     height: inherit;
-    /* background-color: #2c5e74; */
     width: 45vw;
     display: flex;
     justify-content: center;
@@ -2576,7 +2425,6 @@ input {
 .team-body-right p {
     height: 40vh;
     width: 33vw;
-    /* background-color: #f9c041; */
     margin-left: -10vw;
     font-size: 3.5vh;
     margin-top: 8vh;
@@ -2590,7 +2438,6 @@ input {
     width: 12vw;
     border-radius: 25px;
     background-color: #2c5e74;
-    /* margin-top: 10vhś; */
     position: relative;
     top: 5vh;
     left: -4vw;
@@ -2609,15 +2456,13 @@ input {
 
 .team-btn:hover{
     width: 12.5vw;
-    background-color: #888;
+    background-color: #f9c041;
     color: #fff;
 }
 
 .team-bottom {
     height: 10vh;
     width: 100vw;
-    /* background:linear-gradient(90deg,#f9b100,#f9c041); */
-    /* background-image: url("images/bg3.jfif"); */
     opacity: 0.8;
 }
 
@@ -2633,7 +2478,6 @@ input {
             height: 100vh;
             margin-top:1.3vh;
             width: 100vw;
-            /* background-image: url("images/teambg.png"); */
             background-size: 40vh;
             background-repeat: no-repeat;
         }
@@ -2642,21 +2486,16 @@ input {
             height: 20vh;
             max-width: 100vw;
             position: relative;
-            /* left: 3vw; */
         }
     
         .team-head h2 {
             width: 45vw;
-            /* background-color: aqua; */
             font-family: "Baloo 2";
             font-size: 5vh;
             margin-top: 2.5vh;
             position: relative;
             top: -2.5vh;
             left: -3vw;
-            /* padding-right: 2vw; */
-            /* margin-left: 7vw; */
-            /* margin-right: 2vh; */
         
         }
     
@@ -2671,15 +2510,12 @@ input {
             padding: 0;
             position: relative;
             padding-left: 2vw;
-            /* left:   3vw; */
-            /* padding-right: 60vw; */
         }
     
     
     
         .team-body-left img {
             height: 24vh;
-            /* margin-left: 4vw; */
             border: 10px solid #f9c041;
             border-radius: 10vh;
             box-shadow: 1px 7px 60px -18px rgba(0, 0, 0, 0.62);
@@ -2688,7 +2524,6 @@ input {
         .team-body-right p {
             height: 35vh;
             width: 95vw;
-            /* background-color: #f9c041; */
             margin-left: -55vw;
             font-size: 2.5vh;
             font-family: "Baloo 2";
@@ -2702,7 +2537,6 @@ input {
             width: 30vw;
             border-radius: 25px;
             background-color: #2c5e74;
-            /* margin-top: 10vhś; */
             position: relative;
             top: 12vh;
             display: flex;
@@ -2724,7 +2558,6 @@ input {
 .achivement {
     height: 80vh;
     width: 100vw;
-    /* background-image:url("images/HHFC.png") ; */
     background-size: cover;
 }
 
@@ -2735,17 +2568,13 @@ input {
     background-image: url("images/bg2.png");
     background-size: 110vh;
     background-repeat: no-repeat;
-    /* background-color: aqua; */
-    /* opacity: 0.7; */
 }
 
 .h1 {
     height: inherit;
     width: 16vw;
-    /* background-color: red; */
     font-family: 'Baloo 2';
     font-size: 9vh;
-    /* padding-top: 2vh; */
     padding-right: 0.7vw;
     display: flex;
     justify-content: flex-end;
@@ -2755,7 +2584,6 @@ input {
 .h2 {
     height: inherit;
     width: 35vw;
-    /* background-color: blue; */
     color: #f9c041;
     font-family: 'Baloo 2';
     font-size: 10vh;
@@ -2767,22 +2595,18 @@ input {
 .achive-main {
     height: 80vh;
     width: inherit;
-    /* background-color: black; */
-    /* opacity: 0.8; */
     display: flex;
 }
 
 .achive-main-left {
     height: inherit;
     width: 45vw;
-    /* background-color: yellow; */
 
 }
 
 .achieve-p {
     height: 40vh;
     width: inherit;
-    /* background-color: brown; */
     font-size: 3.8vh;
     font-family: 'Baloo 2';
     padding: 0 6vw;
@@ -2800,14 +2624,12 @@ input {
     width: 5.7vw;
     background-color: #2c5e74;
     margin-left: 8.2vw;
-    /* margin-top: 2vh; */
 
 }
 
 .achive-main-right {
     height: inherit;
     width: 55vw;
-    /* background-color: aliceblue; */
 }
 
 .achive-main-img {
@@ -2856,15 +2678,10 @@ input {
 
     .achive-Heading{
         width: 100vw;
-        /* background-image: ; */
         background-size: 120vw;
         background-position-x: -10vw;
         background-position-y: 2vh;
         position: relative;
-        /* left: 3vw; */
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
     }
     .achive-Heading .h1{
         font-size: 4.5vh;
@@ -2921,130 +2738,6 @@ input {
     }
 }
 
-/* 
- @media(max-width: 950px) {
-    .achive-Heading {
-        display: block;
-        text-align: center;
-    }
-
-    .h1 {
-        display: block;
-        text-align: center;
-        width: inherit;
-    }
-
-    .h2 {
-        width: inherit;
-        margin-top: -14vh;
-        text-decoration: underline;
-        text-decoration-color: #2c5e74;
-    }
-
-    .achive-main {
-        display: block;
-        width: 100vw;
-    }
-
-    .achive-main-left {
-        width: inherit;
-        height: 40vh;
-    }
-
-    .achieve-p {
-        height: 30vh;
-    }
-
-    .achive-box {
-        width: 22vw;
-    }
-
-    .achive-main-right {
-        width: 100vw;
-        height: 40vh;
-    }
-
-    .achive-main-img {
-        width: 100vw;
-        height: 40vh;
-    }
-
-    .achive-right-img {
-        height: 40vh;
-        width: 100vw;
-    }
-
-    .achive-right-img img {
-        width: 100vw;
-    }
-
-} */
-
-/*x@media(max-width: 500px) {
-    body {
-        width: 100%;
-    }
-
-    .achive-Heading {
-        display: block;
-        text-align: center;
-    }
-
-    .h1 {
-        display: block;
-        text-align: center;
-        width: inherit;
-        font-size: 7vh;
-    }
-
-    .h2 {
-        display: block;
-        width: inherit;
-        margin-top: -14vh;
-        font-size: 7vh;
-        text-decoration: underline;
-        text-decoration-color: #2c5e74;
-    }
-
-    .achive-main-left {
-        display: block;
-        height: 40vh;
-    }
-
-    .achieve-p {
-        display: block;
-        width: 99vw;
-        height: 27vh;
-    }
-
-    .achive-box {
-        width: 25vw;
-    }
-
-    .achive-main {
-        display: block;
-    }
-
-    .achive-main-right {
-        width: 100vw;
-        height: 40vh;
-    }
-
-    .achive-main-img {
-        height: 25vh;
-        width: 100vw;
-    }
-
-    .achive-right-img {
-        width: 100vw;
-        height: 30vh;
-    }
-
-    .achive-right-img img {
-        width: 100vw;
-
-    }
-} */
 
 
 .partners{
@@ -3058,15 +2751,11 @@ input {
     width: inherit;
     display: flex;
     margin-top: 10vh;
-    /* justify-content: center;
-    align-items: center;
-    margin-top: 10vh; */
 }
 
 .partners-left{
     height: inherit;
     width: 45vw;
-    /* background-color: #24262b; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3079,7 +2768,6 @@ input {
 .partners-right{
     height: inherit;
     width: 55vw;
-    /* background-color: #bbbbbb; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3093,17 +2781,31 @@ input {
     font-size: 3vh;
 }
 
-.partners-right a{
-    height: 5vh;
-    width: 9vw;
+.partners-right .partner-btn {
+    height: 7vh;
+    width: 12vw;
+    border-radius: 25px;
     background-color: #2c5e74;
-    color: #fff;
+    position: relative;
+    top: 5vh;
+    left: -4vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
+
+}
+
+.partner-btn a {
     font-family: "Baloo 2";
-    font-size: 2.3vh;
-    border-radius: 1vh;
+    color: #f1f1f1;
+    font-size: 4vh;
+}
+
+.partner-btn:hover{
+    width: 12.5vw;
+    background-color: #f9c041;
+    color: #fff;
 }
 
 
@@ -3130,7 +2832,6 @@ input {
         flex-direction: column;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;    
     }
 
@@ -3159,10 +2860,23 @@ input {
         margin-top: 3vh;
     }
 
-    .partners-right a {
+    .partners-right .partner-btn {
+        height: 7vh;
         width: 40vw;
+        border-radius: 25px;
+        background-color: #2c5e74;
         position: relative;
-        top: -10vh;
+        top: 12vh;
+        display: flex;
+        margin-top: -30vh;
+        margin-left: 5vh;
+    
+    }
+
+    .partner-btn a {
+        font-family: "Baloo 2";
+        color: #f1f1f1;
+        font-size: 3vh;
     }
 }
 
@@ -3196,7 +2910,6 @@ input {
 .donate-pay h2{
     height: 20vh;
     width: inherit;
-    /* background-color: #2c5e74; */
     font-family: "Baloo 2";
     text-align: center;
     display: flex;
@@ -3226,12 +2939,6 @@ input {
 }
 
 
-/* .last-qoute{
-    height: 20vh;
-    width: 100vw;
-    background-image: url("images/bg1.png");
-} */
-
 
 
 .last-quote{
@@ -3240,7 +2947,6 @@ input {
     background-image: url("images/last-quote.png");
     background-size: cover;
     position: relative;
-    /* top: -10vh */
 }
 
 @media (max-width:950px) {
@@ -3269,7 +2975,6 @@ input {
   *{ 
       margin:0;
       padding:0;
-      /* box-sizing: border-box; */
   }  
   .container {
     max-width: 1170px;
@@ -3279,7 +2984,6 @@ input {
   .row {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
   
   ul {
@@ -3291,7 +2995,6 @@ input {
     background-color: #24262b;
     padding: 70px 0;
     position: relative;
-    /* top: -10vh; */
   }
   
   .footer-col {
