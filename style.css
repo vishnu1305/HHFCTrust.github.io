@@ -1883,7 +1883,8 @@ input {
     align-items: center;
     text-align: center;
     font-family: "Baloo 2";
-    font-size: 4.3vh;
+    font-size: 4.5vh;
+    font-weight: bold;
     line-height: 5.5vh;
 }
 
@@ -1894,7 +1895,7 @@ input {
     justify-content: center;
     align-items: center;
     font-family: "Baloo 2";
-    font-size: 6vh;
+    font-size: 5vh;
     position: relative;
     top: -10vh;
 }
