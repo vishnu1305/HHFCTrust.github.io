@@ -2219,12 +2219,13 @@ input {
 
         .p-info-image img {
             height: 27vh;
+            width: 25vh;
             border: 1px solid #000;
             border-radius: 35px;
             box-shadow: 1px 2px 10px 2px #000;
             position: relative;
             top: -30vh;
-            left: 40vw;
+            left: 30vw;
         }
 
     .p-info-right h1{
