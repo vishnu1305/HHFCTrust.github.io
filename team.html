@@ -95,8 +95,10 @@
             </div>
             <div class="trustee-container">
                 <section class="project">
-                    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-                    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+                    <div>
+                        
+                    <button class="pre-btn pre-btn1"><img src="images/arrow.png" alt=""></button>
+                    <button class="nxt-btn nxt-btn1"><img src="images/arrow.png" alt=""></button>
                     <div class="project-container">
                         <div class="project-card">
                             <div class="pcard"><img src="images/Soni Singh       TV tower center.png" alt=""></div>
@@ -297,6 +299,7 @@
         
         
                 </div>
+                    </div>
             </div>
         </div>
 
@@ -327,6 +330,25 @@
             })
 
             preBtn[i].addEventListener('click', () => {
+                item.scrollLeft -= containerWidth - 100;
+            })
+        })
+    </script>
+    <script>
+        const projectContainers1 = [...document.querySelectorAll('.project-container')];
+        const nxtBtn1 = [...document.querySelectorAll('.nxt-btn')];
+        const preBtn1 = [...document.querySelectorAll('.pre-btn')];
+        const pinfo1 = [...document.querySelectorAll('.p-info')];
+
+        projectContainers.forEach((item, i) => {
+            let containerDimensions = item.getBoundingClientRect();
+            let containerWidth = containerDimensions.width;
+
+            nxtBtn1[i].addEventListener('click', () => {
+                item.scrollLeft += containerWidth - 150;
+            })
+
+            preBtn1[i].addEventListener('click', () => {
                 item.scrollLeft -= containerWidth - 100;
             })
         })
