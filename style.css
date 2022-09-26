@@ -2444,7 +2444,7 @@ input {
     border-radius: 25px;
     background-color: #2c5e74;
     position: relative;
-    top: 5vh;
+    top: -6vh;
     left: -4vw;
     display: flex;
     justify-content: center;
