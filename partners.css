@@ -115,9 +115,10 @@ div.partner-text3{
     flex-direction: column;
     background-image: url(images/background\ text.png);
     background-repeat: no-repeat;
-    height: 115vh;
-    margin-top: 5vh;
+    background-size: 80vh;
+    margin-top: 6vh;
     margin-left: 20vh;
+    height: 110vh;
 }
 
 .partner-text5{
@@ -127,7 +128,7 @@ div.partner-text3{
     text-align: right;
     font-weight: bold;
     margin-right: 20vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 
@@ -150,14 +151,9 @@ div.partner-text3{
 
 
 .partner-txt3{
-    display: flex;
-    flex-direction: column;
-    background-image: url(images/background\ text1.png);
-    background-repeat: no-repeat;
-    background-size: 140vh;
-    height: 108vh;
-    width: 80vw;
-    margin-left: 30vh;
+    
+    /* margin-left: 30vh; */
+    margin-top: 30vh;
 }
 
 .image1{
@@ -182,7 +178,7 @@ div.partner-text8{
     height: 80vh;
     background-color: #fff;
     box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
-    margin-left: 50vh;
+    margin-left: 80vh;
     margin-top: 15vh;
     border-radius: 2vh;
 }
@@ -354,11 +350,13 @@ div.partner-text8{
     }
     .partner{
         height: 60vh;
-        width: 95.6vw;
+        width: 98vw;
         background-image: url(images/small\ pic1.png);
         background-size: 45.5vh;
         background-repeat: no-repeat;
         margin-top: 2vw;
+        position: relative;
+        left: -0.5vh;
     }
     .partner-quote-txt{
         font-size: 2.5vh;
@@ -485,8 +483,8 @@ div.partner-text8{
         height: 65vh;
         background-color: #fff;
         box-shadow: 1px -31px 54px -5px rgba(0,0,0,0.24);
-        margin-left: -29vh;
-        margin-top: -25vh;
+        margin-left: 1vh;
+        margin-top: -100vh;
         border-radius: 2vh;
     }
     .partner-text9{
@@ -627,4 +625,19 @@ div.partner-text8{
         margin: 1vh;
         float: left;
     }
+
+    /* .partner-txt3{
+        position: absolute;
+        width: 100vw;   
+        top: 200vh;
+        margin:0;
+    }
+
+    .partner-text8{
+        width: 100vw;
+        margin: 0;
+        position: absolute;
+        top: 40vh;
+        left: 70vw;
+    } */
 }
