@@ -2062,7 +2062,7 @@ input {
 
     .special-day-body .special-day-center p {
         height: 40vh;
-        width: 110vw;
+        width: 105vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2073,7 +2073,7 @@ input {
         padding-inline-start: 3vw;
         line-height: 5.5vh;
         position: relative;
-        left: -3.4vh;
+        left: -2vh;
         top: -5vh;
     }
 
