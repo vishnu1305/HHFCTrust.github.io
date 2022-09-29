@@ -3030,6 +3030,31 @@ input {
   .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
   }
+
+
+  .donate1{
+    color: #bbbbbb;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+  }
+
+  .donate1:hover{
+    cursor: pointer;
+    color: #ffffff;
+    padding-left: 8px;
+  }
+
+  .donate2:hover{
+    cursor: pointer;
+    color: #ffffff;
+  }
   
   .footer-col ul li a {
     font-size: 16px;
