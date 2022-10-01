@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #f9c041;
+    background-color: #2c5e74;
+}
 .partner-text h1{
     font-size: 5vh;
     width: 30vw;
