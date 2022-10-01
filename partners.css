@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    background-size: cover;
+}
+
 ::-webkit-scrollbar {
     height: 4px;
     width: 4px;
