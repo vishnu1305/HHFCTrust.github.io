@@ -118,7 +118,7 @@
 
 
 
-
+    <!-- About Us -->
     <section class="about-us" id="about-us" onmouseover="nav1()">
         <h1>About Us</h1>
         <p>Helping Hands Friends Charitable Trust is a registered NGO in India based primarily in Patna and Prayagraj.
@@ -126,7 +126,7 @@
             bring honor to our country.</p>
     </section>
 
-
+    <!-- What We Do -->
     <section class="whatwedo" id="whatwedo" onmouseover="nav1()">
         <div class="whatwedo-head">
             <h1 class="h1">WHAT WE</h1>
@@ -181,6 +181,7 @@
                 </div>
             </div>
 
+        <!-- What We Do Inner -->
             <div>
                 <input type="checkbox" name="" id="education">
                 <label for="education" class="whatwedo-info">
@@ -311,7 +312,7 @@
         </div>
     </section>
 
-
+    <!-- Project -->
    <section class="project-main" id="projects"  onmouseover="nav2()">
         <div class="project-left">
             <h1>Our</h1>
@@ -421,13 +422,9 @@
                     item.scrollLeft -= containerWidth;
                 })
             })</script>
-
-
-
-
-
     </section>
 
+    <!-- Project Inner -->
     <div>
         <input type="checkbox" name="" id="project1">
         <div class="project-info">
@@ -551,16 +548,7 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Special Day -->
     <section class="sepcial-day-main" onmouseover="nav2()">
         <div class="special-day-head">
             <span class="line line1"></span>
@@ -573,7 +561,7 @@
                 <img src="images/christmas celeb.jpg" alt="">
             </div>
             <div class="special-day-center">
-                <p>" We, HHFCians are here to celebrate<br>your special day with you. "</p>
+                <p>" We, HHFCians are here to celebrate<br>your Special Day with you. "</p>
                 <h1>Select Your Package </h1>
                 <div class="special-day-container">
                     <div class="container container1">
@@ -655,7 +643,7 @@
 
 
 
-
+    <!-- Our Team -->
     <section class="team-main" id="team" onmouseover="nav3()">
         <div class="team-head">
             <h2>Meet Our</h2>
@@ -673,7 +661,7 @@
         <div class="team-bottom"></div>
     </section>
 
-
+    <!-- Our Achievement -->
     <section class="achivement" id="achievement" onmouseover="nav4()">
         <div class="achive-Heading">
             <h1 class="h1">Our</h1>
@@ -720,7 +708,7 @@
         </div>
     </section>
 
-
+    <!-- Our Partner -->
     <section class="partners" id="partners" onmouseover="nav5()">
         <div class="special-day-head p-head">
             <span class="line line1 p-line"></span>
@@ -736,10 +724,78 @@
         </div>
     </section>
 
+    <!-- Contact Us -->
+    <!-- <section class="contact-main">
+        <div class="contact-main2">
+        <div class="content9">
+            <div class="left-side9">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">1B, Ruchira Apt, Boring Road, Patna-800004, Bihar.</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+91 9031040263</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">helpinghandsfc121@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side9">
+                <div class="topic-text">Ask Any Query</div>
+                <form id="contact-form">
+                    <div class="input-box9">
+                        <input type="text" id="name" name="user_name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box9">
+                        <input type="text" id="email" name="user_email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box9">
+                        <input type="text" id="number" name="user_number" placeholder="Enter your Number" required>
+                    </div>
+                    <div class="input-box9 message-box9">
+                        <textarea placeholder="Enter your message" name="message" id="message"></textarea>
+                    </div>
+                    <div class="button9">
+                        <input type="submit" id="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            //emailjs.init('YOUR_PUBLIC_KEY');                                                                                          
+            emailjs.init('kRmQCCjMjKFEK_XDx'); 
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                //emailjs.sendForm(' Your serviceId', 'Your template Id', this)
+                emailjs.sendForm('service_igdab06', 'template_eg7joh9', this)
+                    .then(function() {
+                        alert('SUCCESS!');
+                    }, function(error) {
+                        alert('FAILED...', error);
+                    });
+            });
+        }
+    </script> -->
+
 
     <div class="last-quote"></div>
 
-
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -759,7 +815,7 @@
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="Privacy Policy.html">Privacy Policy</a></li>
                         <li><a href="refundpolicy.html">Refund Policy</a></li>
-                        <li><a href="#">Regn No.9012/19</a></li>
+                        <li><a>Regn No.9012/19</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -853,34 +909,6 @@
         function nav5() {
             document.getElementById("nav-btn5").click();
         }
-
-
-
-
-        //project
-       
-
-        //achievement
-
-        // let slideIndex = 0;
-        // showSlides();
-
-        // function showSlides() {
-        //     let i;
-        //     let slides = document.getElementsByClassName("achive-right-img");
-        //     let dots = document.getElementsByClassName("dot");
-        //     for (i = 0; i < slides.length; i++) {
-        //         slides[i].style.display = "none";
-        //     }
-        //     slideIndex++;
-        //     if (slideIndex > slides.length) { slideIndex = 1 }
-        //     for (i = 0; i < dots.length; i++) {
-        //         dots[i].className = dots[i].className.replace(" active", "");
-        //     }
-        //     slides[slideIndex - 1].style.display = "block";
-        //     dots[slideIndex - 1].className += " active";
-        //     setTimeout(showSlides, 3000); // Change image every 2 seconds
-        // }
     </script>
 </body>
 
