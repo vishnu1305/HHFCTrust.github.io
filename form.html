@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="head">
+    <form id="myForm" onsubmit="handleFormSubmit(this)">
+        <h1>Registration Form</h1>
+        <span></span>
+    </div>
+    <div class="form-reg">
+        <!-- Name -->
+        <div class="name">
+        <label for="name">Name: </label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required><br>
+        </div>
+        
+
+        <!-- Parent's Name -->
+        <div class="pname">
+            <label for="parentsname">Parent's Name:</label>
+            <input type="text" class="form-control" id="parentsname" name="parentsname" placeholder="Parent's Name" required><br>
+        </div>
+
+        <!-- Email -->
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required><br>
+        </div>
+
+        <!-- DOB -->
+        <div class="date">
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth" required>
+        </div>
+
+        <!-- Language -->
+        <div class="langu">
+        <div class="langu1">
+            <label for="lang">Language: </label>
+        </div>
+        <div class="langu2">
+            <input class="form-check-input" type="checkbox" name="language" id="English" value="English">
+            <label class="form-check-label" for="English">English</label>
+            <input class="form-check-input" type="checkbox" name="language" id="Hindi" value="Hindi">
+            <label class="form-check-label" for="Hindi">Hindi</label>
+        </div>
+        </div>
+
+        <!-- Gender -->
+        <div class="sex">
+        <div class="sex1">
+            <label for="gender">Gender: </label>
+        </div>
+        <div class="sex2">
+            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+            <label class="form-check-label" for="male">Male</label>
+            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+            <label class="form-check-label" for="female">Female</label>
+            <input class="form-check-input" type="radio" name="gender" id="other" value="other" required>
+            <label class="form-check-label" for="other">other</label>
+        </div>
+        </div>
+
+        <!-- Blood Group -->
+        <div class="bg">
+            <div class="bg1">
+        <label for="bloodgroup">Blood Group:</label>
+            </div>
+            <div class="bg2">
+                                      <select id="bloodgroup" name="myBg" required>
+                                          <option value="NA">NA</option>
+                                          <option value="A+">A+</option>
+                                          <option value="A-">A-</option>
+                                          <option value="B+">B+</option>
+                                          <option value="B-">B-</option>
+                                          <option value="AB+">AB+</option>
+                                          <option value="AB-">AB-</option>
+                                          <option value="O+">O+</option>
+                                          <option value="O-">O-</option>
+                                      </select>
+        </div>
+        </div>
+        
+        <!-- Permanent Address -->
+        
+                 
+               <!--=== Permanent address=== -->
+               
+                <div class="address-head"><p>Permanent Address</p></div>
+                <div class="address">
+                <div class="form-group1">
+                   Address: <input type="text" class="form-control" placeholder="Address Line" id="pAddressLine1" required>
+                </div>
+                <div class="form-group2">
+                    Street/Locality: <input type="text" class="form-control" placeholder="Street" id="pStreet" required>
+                </div>
+                <div class="form-group3">
+                    Country: <input type="text" class="form-control" placeholder="country" id="pCountry" required>
+                </div>
+                <div class="form-group4">
+                    State: <input type="text" class="form-control" placeholder="State" id="pState" required>
+                </div>
+                <div class="form-group5">
+                    City: <input type="text" class="form-control" placeholder="City" id="pCity" required>
+                </div> 
+                <div class="form-group6">
+                    Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="pPincodecode" required>
+                </div>
+                 
+                 
+                  
+               <!--=== Permanent address=== -->
+            
+                  <div class="form-group">
+                     <input class="check" type="checkbox" id="checkBox"  onclick="autoFilAddress()"> Same as Permanent Address
+                  </div>
+             
+                    
+                
+               <!--=== Residential address=== -->
+                <div class="address-head"><p>Residential Address</p></div>
+                <div class="form-group1">
+                    Address: <input type="text" class="form-control" placeholder="Address Line" id="ReAddressLine1" required>
+                 </div>
+                 <div class="form-group2">
+                     Street/Locality: <input type="text" class="form-control" placeholder="Street" id="ReStreet" required>
+                 </div>
+                 <div class="form-group3">
+                     Country: <input type="text" class="form-control" placeholder="country" id="ReCountry" required>
+                 </div>
+                 <div class="form-group4">
+                     State: <input type="text" class="form-control" placeholder="State" id="ReState" required>
+                 </div>
+                 <div class="form-group5">
+                     City: <input type="text" class="form-control" placeholder="City" id="ReCity" required>
+                 </div> 
+                 <div class="form-group6">
+                     Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="RePincodecode" required>
+                 </div>
+                </div>
+               <!--=== Residential address=== -->
+
+           <script>
+            function autoFilAddress()
+                {
+                   let checkBox= document.getElementById('checkBox');
+                   let pAddressLine1 = document.getElementById("pAddressLine1");                   
+                   let pStreet = document.getElementById("pStreet");
+                   let pCountry = document.getElementById("pCountry");
+                   let pState = document.getElementById("pState");
+                   let pCity = document.getElementById("pCity");
+                   let pPincodecode = document.getElementById("pPincodecode");
+                   
+                   
+                   
+                   let ReAddressLine1 = document.getElementById("ReAddressLine1");                   
+                   let ReStreet = document.getElementById("ReStreet");
+                   let ReCountry = document.getElementById("ReCountry");
+                   let ReState = document.getElementById("ReState");
+                   let ReCity = document.getElementById("ReCity");
+                   let RePincodecode = document.getElementById("RePincodecode");
+                   
+                   
+                   
+                    if (checkBox.checked == true)
+                    {
+                    
+                   let pAddressLine1Value = pAddressLine1.value;                   
+                   let pStreetValue       = pStreet.value;
+                   let pCountryValue      = pCountry.value;
+                   let pStateValue        = pState.value;
+                   let pCityValue         = pCity.value;
+                   let pPincodecodeValue  = pPincodecode.value;
+                   
+                   
+                   
+                   ReAddressLine1.value = pAddressLine1Value;                    
+                   ReStreet.value       = pStreetValue;   
+                   ReCountry.value      = pCountryValue;
+                   ReState.value        = pStateValue;  
+                   ReCity.value         = pCityValue;
+                   RePincodecode.value  = pPincodecodeValue;     
+                        
+                        
+                         
+                   }
+                    else
+                    {
+                   ReAddressLine1.value = "";                
+                   ReStreet.value       = "";     
+                   ReCountry.value      = "";
+                   ReState.value        = "";
+                   ReCity.value         = "";
+                   RePincodecode.value  = "";                                                           
+                    }
+                }
+            </script>
+
+    <!-- Profession  -->
+    <div class="prof">
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" name="myProfession" placeholder="Profession" required><br>
+    </div>
+
+    <!-- Institute Name -->
+    <div class="sname">
+        <label for="iname">College/Company Name: </label> 
+        <input type="text" id="iname" name="myIname" placeholder="College/Company" required><br>
+    </div>
+
+    <!-- Mobile Number -->
+    <div class="number">
+        <label for="mobnum">Mobile Number: </label> 
+        <input type="text" id="mobnum" name="myMobnum" placeholder="Number" required><br>
+        <label for="othermobnum">Other Number(Optional): </label>
+        <input Class="other"type="text" id="othermobnum" name="otherMobnum" placeholder="Number">
+    </div>
+    
+    
+    <!-- Membership -->
+    <div class="member">
+        <div class="member1">
+        <label for="member">Membership Type: </label>
+        </div>
+        <div class="member2">
+        <input class="form-check-input" type="radio" name="myMember" id="member" value="New Entry" required>
+        <label class="form-check-label" for="myMember">New Entry</label>
+        <input class="form-check-input" type="radio" name="myMember" id="member" value="Renewal" required>
+        <label class="form-check-label" for="myMember">Renewal</label>
+    </div>
+    </div>
+
+    <!-- Know About Trust -->
+    <div class="know">
+        <div class="know1">
+        <label for="know">From Where You Know About HHFC Trust:</label>
+        </div>
+        <div class="know2">
+            <div class="know3">
+        <input class="form-check-input" type="radio" name="myknow" id="know" value="Facebook" required>
+        <label class="form-check-label" for="myknow">Facebook</label><br>
+            </div>
+            <div class="know3">
+        <input class="form-check-input" type="radio" name="myknow" id="know" value="Instagram" required>
+        <label class="form-check-label" for="myknow">Instagram</label><br>
+            </div>
+            <div class="know3">
+        <input class="form-check-input" type="radio" name="myknow" id="know" value="Youtube" required>
+        <label class="form-check-label" for="myknow">Youtube</label><br>
+            </div>
+            <div class="know3">
+        <input class="form-check-input" type="radio" name="myknow" id="know" value="Activememb" required>
+        <label class="form-check-label" for="myknow">HHFC's Active Member (Please Mention Name) </label></div>
+        <input class="txt-ar" type="text" placeholder="Member Name">
+    </div>
+    </div>
+
+    <!-- Want Become -->
+    <div class="become">
+        <div class="become1">
+        <label for="become">In HHFC Trust, I want to become: </label>
+        </div>
+        <div class="become2">
+            <div class="become3">
+        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Member" required>
+        <label class="form-check-label" for="mybecome">Member</label><br>
+            </div>
+            <div class="become3">
+        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Active Member" required>
+        <label class="form-check-label" for="mybecome">Active Member</label><br>
+            </div>
+            <div class="become3">
+        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Part of Administrative Team" required>
+        <label class="form-check-label" for="mybecome">Part of Administrative Team</label>
+            </div>
+    </div>
+    </div>
+    
+
+    <!-- Why you join Trust -->
+    <div class="join">
+        <label for="join">Why you want to join HHFC Trust & What you expect from us?</label><br>
+        <textarea name="myJoin" id="join" cols="40" rows="5" placeholder="Your Expections" required></textarea>
+    </div>
+
+    <!-- Profile & ID Proof -->
+    <!-- <div>
+        <label for="myfile">Upload your Photo</label>
+        <input type="text" id="email" name="email:" placeholder="">
+        <input type="file" id="myFile" name="filename" required>      
+        <input type="button" value="Send" onclick="google.script.run.processForm(this.parentNode)" required><br>
+
+        <label for="myfile">Upload your ID Proof</label>
+        <input type="text" id="email" name="email:" placeholder="">
+        <input type="file" id="myFile" name="filename" required>      
+        <input type="button" value="Send" onclick="google.script.run.processForm(this.parentNode)" required><br>
+        <label for="myfile">(Aadhar Card/ Driving License/ State ID/ Passport/ Company-Issued ID/ College or School ID(Any One))</label>
+    </div> -->
+
+    <!-- contact with you -->
+    <div class="paysuccess">
+        <label for="paysuccess">After Successful payment our Executive will contact you in 5-7 working days: <br>
+        (In case if you are not contacted by our Executive Please contact at 9534692739)</label><br>
+        <div class="paysuccess1">
+        <input type="radio" name="mysuccess" id="paysuccess" required> <label for="mysuccess">OK</label>
+        </div>
+    </div>
+
+    <!-- T&C -->
+    <div class="tc">
+        <label for="tc">Terms & Conditions:</label><br>
+        <div class="tc1">
+        <input type="checkbox" name="mytc" id="tc" required>
+        <label for="tc">I hereby provide my voluntary consent to the Trust and agree to the terms & conditions of HHFC Trust
+            as stated in its official website ( https://www.hhfc.in/termsandrules ) about Membership and other services 
+            provided by  HHFC.</label>
+        </div>
+    </div>
+
+    <button type="submit" class="button" onclick="reg()">Submit</button>
+</div>
+</form>
+<div>
+    <input class="chck" type="checkbox" name="" id="register">
+    <label for="register" class="payment">
+        <div class="donate-pay">
+            <h2>To become our part of family.</h2>
+            <form>
+                <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                    data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
+            </form>
+        </div>
+    </label>
+</div>
+<div id="output"></div>
+
+<script>
+    function reg(){
+        document.getElementById("register").click();
+    }
+</script>
+<script>
+    document.getElementById("myForm").addEventListener("submit",function(e){
+        e.preventDefault()
+        alert("Form is Submitted")
+    })
+</script>
+</body>
+</html>

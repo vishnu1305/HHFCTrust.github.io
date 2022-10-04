@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baloo 2";
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    border: 2px solid #f9c041;
+    background-color: #2c5e74;
+}
+.form-reg{
+    margin-left: 20vh;
+    margin-top: 5vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head h1{
+    font-size: 5vh;
+    color: #f9c041;
+    text-align: center;
+    margin-top: 1vh;
+}
+.head span{
+    height: 0.5vh;
+    width: 25vw;
+    background-color: #2c5e74;
+    display: flex;
+    margin-top: 1vh;
+}
+.name label{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+
+.name input{
+  font-size: 3vh;
+  background: #F0F1F8;
+  border-radius: 10px;
+  padding: 0 15px;
+  margin-top: 3vh;
+  margin-left: 20.7vh;
+}
+
+.pname label{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.pname input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 10vh;
+  
+}
+
+.email label{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.email input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 21.6vh;
+  
+}
+
+.date label{
+    font-size: 3vh;
+}
+.date input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 12vh;
+  
+}
+.langu{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+.langu2{
+    margin-left: 14vh;
+}
+.langu2 input{
+    background: #F0F1F8;
+    border-radius: 5px;
+    margin-left: 2vh;
+    padding: 0 15px;
+}
+.langu2 input.form-check-input{
+    width: 2vw;
+    height: 2vh;
+    
+}
+
+.sex{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+.sex2{
+    margin-left: 19vh;
+}
+.sex2 input{
+    background: #F0F1F8;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.sex2 input.form-check-input{
+    width: 2vw;
+    height: 2vh;
+}
+
+.bg{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+
+.bg2{
+    margin-left: 13vh;
+}
+.bg2 select {
+    width: 10vh;
+    font-size: 2.5vh;
+    text-align: center;
+    background: #F0F1F8;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.form-group{
+    margin-top: 3vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.form-group input.check{
+    width: 2vw;
+    height: 2vh;
+}
+.address-head{
+    margin-top: 3vh;
+}
+.address-head p{
+    font-size: 4vh;
+    font-weight: bold;
+}
+.form-group1{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.form-group1 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 17vh;
+}
+.form-group2{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.form-group2 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-left: 8.5vh;
+}
+.form-group3{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.form-group3 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-left: 17vh;
+}
+.form-group4{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.form-group4 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-left: 20.5vh;
+}
+.form-group5{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.form-group5 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-left: 22.5vh;
+}
+.form-group6{
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.form-group6 input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-left: 17.3vh;
+}
+
+.prof label{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.prof input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 4vh;
+    margin-left: 14vh;
+  
+}
+
+.sname label{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.sname input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 14vh;
+  
+}
+
+.number label{
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+.number input{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-top: 3vh;
+    margin-left: 24.7vh;
+  
+}
+.number .other{
+    margin-left: 13.4vh;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+.member2{
+    margin-left: 21vh;
+}
+.member2 input{
+    background: #F0F1F8;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.member2 input.form-check-input{
+    width: 2vw;
+    height: 2vh;
+}
+
+.know{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+.know2{
+    margin-left: 19vh;
+}
+.know2 input{
+    background: #F0F1F8;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 3vh;
+}
+.know2 input.form-check-input{
+    width: 2vw;
+    height: 2vh;
+}
+.txt-ar{
+    margin-left: 4vh;
+}
+
+.become{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    margin-top: 3vh;
+
+}
+.become2{
+    margin-left: 19vh;
+}
+.become2 input{
+    background: #F0F1F8;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 2vh;
+}
+.become2 input.form-check-input{
+    width: 2vw;
+    height: 2vh;
+}
+
+.join{
+    margin-top: 3vh;
+}
+.join label{
+    font-size: 3vh;
+}
+.join textarea{
+    font-size: 3vh;
+    background: #F0F1F8;
+    border-radius: 10px;
+    padding: 0 15px;
+  
+}
+
+.paysuccess{
+    margin-top: 3vh;
+}
+.paysuccess label{
+    font-size: 3vh;
+}
+.paysuccess input{
+    width: 2vw;
+    height: 2vh;
+}
+
+.tc{
+    margin-top: 3vh;
+    width: 150vh;
+}
+.tc label{
+    font-size: 3vh;
+}
+.tc input{
+    width: 2vw;
+    height: 2vh;
+}
+
+.button{
+    margin: 2vh;
+    margin-top: 3vh;
+    color: #F0F1F8;
+    font-size: 3vh;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #f9c041;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background-color: #2c5e74;
+}
+
+@media (max-width: 950px){
+    .head{
+        display: flex;
+        justify-content: center;
+    }
+    .head h1{
+        font-size: 4vh;
+        margin-top: 1vh;
+    }
+    .head span{
+        height: 0.5vh;
+        width: 70vw;
+        margin-top: 0vh;
+    }
+    .form-reg{
+        margin-left: 1vh;
+        margin-top: 3vh;
+    }
+    .name label{
+        font-size: 3vh;
+        margin-top: 1vh;
+    }
+    .name input{
+      font-size: 3vh;
+      margin-top: 0vh;
+      margin-left: 2vh;
+    }
+    .pname{
+        margin-top: 2vh;
+    }
+    .pname label{
+        font-size: 3vh;
+    }
+    .pname input{
+        font-size: 3vh;
+        margin-top: 0vh;
+        margin-left: 2vh; 
+    }
+    .email{
+        margin-top: 2vh;
+    }
+    .email label{
+        font-size: 3vh;
+    }
+    .email input{
+        font-size: 3vh;
+        margin-top: 0vh;
+        margin-left: 2vh;
+    }
+    .date{
+        margin-top: 2vh;
+    }
+    .date label{
+        font-size: 3vh;
+    }
+    .date input{
+        font-size: 3vh;
+        margin-top: 0vh;
+        margin-left: 2vh;  
+    }
+    .langu{
+        display: flex;
+        flex-direction: row;
+        font-size: 3vh;
+        margin-top: 2vh;
+    }
+    .langu2{
+        margin-left: 2vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .langu2 label{
+        margin-left: 1vh;
+    }
+    .langu2 input{
+        margin-left: 2vh;
+    }
+    .langu2 input.form-check-input{
+        width: 5vw;
+        height: 5vh;   
+    }
+    .sex{
+        display: flex;
+        flex-direction: row;
+        font-size: 3vh;
+        margin-top: 3vh;
+    }
+    .sex2{
+        margin-left: 1vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .sex2 label{
+        margin-left: 0.5vh;
+    }
+    .sex2 input{
+        margin-left: 1.5vh;
+    }
+    .sex2 input.form-check-input{
+        width: 5vw;
+        height: 5vh;
+    }
+    .bg2{
+        margin-left: 2vh;
+    }
+    .bg2 select {
+        width: 15vh;
+        font-size: 3vh;
+    }
+    .form-group{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3vh;
+    }
+    .form-group input.check{
+        width: 5vw;
+        height: 5vh;
+        margin-right: 1vh;
+    }
+    .form-group1{
+        margin-top: 1vh;
+    }
+    .form-group1 input{
+        margin-top: 0vh;
+        margin-left: 2vh;
+    }
+    .form-group2 input{
+        margin-left: 2vh;
+    }
+    .form-group3{
+        margin-top: 1vh;
+    }
+    .form-group3 input{
+        margin-left: 2vh;
+    }
+    .form-group4{
+        margin-top: 1vh;
+    }
+    .form-group4 input{
+        margin-left: 2vh;
+    }
+    .form-group5{
+        margin-top: 1vh;
+    }
+    .form-group5 input{
+        margin-left: 2vh;
+    }
+    .form-group6{
+        margin-top: 1vh;
+    }
+    .form-group6 input{
+        margin-left: 2vh;
+    }
+    .prof{
+        margin-top: 2vh;
+    }
+    .prof input{
+        margin-top: 0vh;
+        margin-left: 2vh;  
+    }
+    .sname{
+        margin-top: 2vh;
+    }
+    .sname input{
+        margin-top: 0vh;
+        margin-left: 2vh;
+    }
+    .number{
+        margin-top: 2vh;
+    }
+    .number input{
+        margin-top: 0vh;
+        margin-left: 2vh;
+    }
+    .number .other{
+        margin-left: 2vh;
+    }
+    .member{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    .member2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2vh;
+    }
+    .member2 input{
+        margin-left: 3vh;
+    }
+    .member2 input.form-check-input{
+        width: 5vw;
+        height: 5vh;
+        margin-right: 1vh;
+    }
+    .know{
+        margin-top: 1vh;
+    }
+    .know2{
+        margin-left: 1vh;
+    }
+    .know3{
+        display: flex;
+        flex-direction: row;
+    }
+    .know2 input{
+        font-size: 3vh;
+    }
+    .know2 .form-check-label{
+        margin-left: 2vh;
+        width: 30vh;
+    }
+    .know2 input.form-check-input{
+        width: 5vw;
+        height: 5vh;
+    }
+    .txt-ar{
+        margin-left: 4vh;
+    }
+    .become{
+        display: flex;
+        flex-direction: column;
+        font-size: 3vh;
+        margin-top: 2vh;
+    }
+    .become2{
+        margin-left: 2vh;
+    }
+    .become2 label{
+        margin-left: 2vh;
+    }
+    .become2 input.form-check-input{
+        width: 5vw;
+        height: 5vh;
+    }
+    .become3{
+        display: flex;
+        flex-direction: row;
+    }
+    .join{
+        margin-top: 1vh;
+    }
+    .join textarea{
+        width: 47vh; 
+    }
+    .paysuccess{
+        margin-top: 1vh;
+    }
+    .paysuccess1 label{
+        margin-left: 1vh;
+    }
+    .paysuccess1{
+        display: flex;
+        flex-direction: row;
+    }
+    .paysuccess input{
+        width: 5vw;
+        height: 5vh;
+        margin-left: 2vh;
+    }
+    .tc{
+        margin-top: 2vh;
+        width: 48vh;
+    }
+    .tc1 label{
+        margin-left: 1vh;
+    }
+    .tc1 input{
+        width: 5vw;
+        height: 5vh;
+    }
+    .tc1{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+  .payment{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.donate-pay{
+    height: 30vh;
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg1.png");
+}
+
+.donate-pay h2{
+    height: 20vh;
+    width: inherit;
+    font-family: "Baloo 2";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chck{
+    display: none;
+}
+
+#register:checked ~ .payment{
+    visibility: visible;
+}
+
+/* PAYMENT REPONSIVE */
+@media (max-width: 950px){
+    .payment .donate-pay {
+        width: 85vw;
+    }
+    
+    .donate-pay h2{
+        font-size: 2vh;
+    }
+    }
+    
+    #donate:checked ~ .payment{
+        visibility: visible;
+    }
+    
+    
+    #register:checked ~ .payment{
+        visibility: visible;
+    }
