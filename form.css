@@ -664,10 +664,12 @@
     }
     .tc1 label{
         margin-left: 1vh;
+        width: 40vh;
     }
     .tc1 input{
         width: 5vw;
         height: 5vh;
+        margin-left: 1vh;
     }
     .tc1{
         display: flex;
