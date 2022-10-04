@@ -40,7 +40,7 @@
 
 .name input{
   font-size: 3vh;
-  background: #F0F1F8;
+  /* background: #F0F1F8; */
   border-radius: 10px;
   padding: 0 15px;
   margin-top: 3vh;
@@ -53,7 +53,7 @@
 }
 .pname input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -67,7 +67,7 @@
 }
 .email input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -80,7 +80,7 @@
 }
 .date input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -98,7 +98,7 @@
     margin-left: 14vh;
 }
 .langu2 input{
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     margin-left: 2vh;
     padding: 0 15px;
@@ -120,7 +120,7 @@
     margin-left: 19vh;
 }
 .sex2 input{
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     padding: 0 15px;
 }
@@ -144,7 +144,7 @@
     width: 10vh;
     font-size: 2.5vh;
     text-align: center;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     padding: 0 15px;
 }
@@ -170,7 +170,7 @@
 }
 .form-group1 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -182,7 +182,7 @@
 }
 .form-group2 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 8.5vh;
@@ -193,7 +193,7 @@
 }
 .form-group3 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 17vh;
@@ -204,7 +204,7 @@
 }
 .form-group4 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 20.5vh;
@@ -215,7 +215,7 @@
 }
 .form-group5 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 22.5vh;
@@ -226,7 +226,7 @@
 }
 .form-group6 input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 17.3vh;
@@ -238,7 +238,7 @@
 }
 .prof input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 4vh;
@@ -252,7 +252,7 @@
 }
 .sname input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -266,7 +266,7 @@
 }
 .number input{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
     margin-top: 3vh;
@@ -288,7 +288,7 @@
     margin-left: 21vh;
 }
 .member2 input{
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     padding: 0 15px;
 }
@@ -308,7 +308,7 @@
     margin-left: 19vh;
 }
 .know2 input{
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     padding: 0 15px;
     font-size: 3vh;
@@ -332,7 +332,7 @@
     margin-left: 19vh;
 }
 .become2 input{
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 5px;
     padding: 0 15px;
     font-size: 2vh;
@@ -350,7 +350,7 @@
 }
 .join textarea{
     font-size: 3vh;
-    background: #F0F1F8;
+    /* background: #F0F1F8; */
     border-radius: 10px;
     padding: 0 15px;
   
@@ -382,7 +382,7 @@
 .button{
     margin: 2vh;
     margin-top: 3vh;
-    color: #F0F1F8;
+    /* color: #F0F1F8; */
     font-size: 3vh;
     font-weight: bold;
     outline: none;
