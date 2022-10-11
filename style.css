@@ -2952,7 +2952,7 @@ input {
 
 
 .last-quote{
-    height: 58vh;
+    height: 65vh;
     width: 100vw;
     background-image: url("images/last-quote.png");
     background-size: cover;
@@ -2963,7 +2963,7 @@ input {
     .last-quote{
         position: relative;
         top: 250vh;
-        background-size: 140vw;
+        background-size: 150vw;
         background-repeat: no-repeat;
         background-position-x: -25vw
     }
