@@ -2968,6 +2968,11 @@ input {
         background-position-x: -25vw
     }
 }
+@media (max-width:380px){
+    .last-quote{
+        background-size: 145vw;
+    }
+}
 
 /* Contact Us */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
