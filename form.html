@@ -5,75 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
-    <title>Registration Form</title>
+    <title>form</title>
 </head>
 <body>
-    <div class="head">
-    <form id="myForm" onsubmit="handleFormSubmit(this)">
-        <h1>Registration Form</h1>
-        <span></span>
-    </div>
-    <div class="form-reg">
-        <!-- Name -->
+        <div class="head">
+            <form id="myForm"  method="post" name="google-sheet" onsubmit="handleFormSubmit(this)">
+                <h1>Registration Form</h1>
+                <span></span>
+            </div>
+            <div class="form-reg">
         <div class="name">
-        <label for="name">Name: </label>
-        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required><br>
-        </div>
-        
+            <label for="name">Name: </label>
+            <input type="text" class="form-control" id="name" name="Name" placeholder="Name" required><br>
+            </div>
+            
+    
+            <!-- Parent's Name -->
+            <div class="pname">
+                <label for="parentsname">Parent's Name:</label>
+                <input type="text" class="form-control" id="parentsname" name="Parent's Name" placeholder="Parent's Name" required><br>
+            </div>
+    
+            <!-- Email -->
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required><br>
+            </div>
 
-        <!-- Parent's Name -->
-        <div class="pname">
-            <label for="parentsname">Parent's Name:</label>
-            <input type="text" class="form-control" id="parentsname" name="parentsname" placeholder="Parent's Name" required><br>
-        </div>
-
-        <!-- Email -->
-        <div class="email">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required><br>
-        </div>
-
-        <!-- DOB -->
+            <!-- DOB -->
         <div class="date">
             <label for="dateOfBirth">Date of Birth:</label>
-            <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth" required>
+            <input type="date" class="form-control" id="dateOfBirth" name="DOB" required>
         </div>
 
         <!-- Language -->
         <div class="langu">
-        <div class="langu1">
-            <label for="lang">Language: </label>
-        </div>
-        <div class="langu2">
-            <input class="form-check-input" type="checkbox" name="language" id="English" value="English">
-            <label class="form-check-label" for="English">English</label>
-            <input class="form-check-input" type="checkbox" name="language" id="Hindi" value="Hindi">
-            <label class="form-check-label" for="Hindi">Hindi</label>
-        </div>
-        </div>
+            <div class="langu1">
+                <label for="lang">Language: </label>
+            </div>
+            <div class="langu2">
+                <input class="form-check-input" type="checkbox" name="Language" id="English" value="English">
+                <label class="form-check-label" for="English">English</label>
+                <input class="form-check-input" type="checkbox" name="Language" id="Hindi" value="Hindi">
+                <label class="form-check-label" for="Hindi">Hindi</label>
+            </div>
+            </div>
+    
+            <!-- Gender -->
+            <div class="sex">
+            <div class="sex1">
+                <label for="gender">Gender: </label>
+            </div>
+            <div class="sex2">
+                <input class="form-check-input" type="radio" name="Gender" id="male" value="male" required>
+                <label class="form-check-label" for="male">Male</label>
+                <input class="form-check-input" type="radio" name="Gender" id="female" value="female" required>
+                <label class="form-check-label" for="female">Female</label>
+                <input class="form-check-input" type="radio" name="Gender" id="other" value="other" required>
+                <label class="form-check-label" for="other">other</label>
+            </div>
+            </div>
 
-        <!-- Gender -->
-        <div class="sex">
-        <div class="sex1">
-            <label for="gender">Gender: </label>
-        </div>
-        <div class="sex2">
-            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
-            <label class="form-check-label" for="male">Male</label>
-            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
-            <label class="form-check-label" for="female">Female</label>
-            <input class="form-check-input" type="radio" name="gender" id="other" value="other" required>
-            <label class="form-check-label" for="other">other</label>
-        </div>
-        </div>
-
-        <!-- Blood Group -->
+            <!-- Blood Group -->
         <div class="bg">
             <div class="bg1">
         <label for="bloodgroup">Blood Group:</label>
             </div>
             <div class="bg2">
-                                      <select id="bloodgroup" name="myBg" required>
+                                      <select id="bloodgroup" name="Blood Group" required>
                                           <option value="NA">NA</option>
                                           <option value="A+">A+</option>
                                           <option value="A-">A-</option>
@@ -95,22 +94,22 @@
                 <div class="address-head"><p>Permanent Address</p></div>
                 <div class="address">
                 <div class="form-group1">
-                   Address: <input type="text" class="form-control" placeholder="Address Line" id="pAddressLine1" required>
+                   Address: <input type="text" class="form-control" placeholder="Address Line" id="pAddressLine1" name="Address" required>
                 </div>
                 <div class="form-group2">
-                    Street/Locality: <input type="text" class="form-control" placeholder="Street" id="pStreet" required>
+                    Street/Locality: <input type="text" class="form-control" placeholder="Street" id="pStreet" name="Street/Locality" required>
                 </div>
                 <div class="form-group3">
-                    Country: <input type="text" class="form-control" placeholder="country" id="pCountry" required>
+                    Country: <input type="text" class="form-control" placeholder="country" id="pCountry" name="Country" required>
                 </div>
                 <div class="form-group4">
-                    State: <input type="text" class="form-control" placeholder="State" id="pState" required>
+                    State: <input type="text" class="form-control" placeholder="State" id="pState" name="State" required>
                 </div>
                 <div class="form-group5">
-                    City: <input type="text" class="form-control" placeholder="City" id="pCity" required>
+                    City: <input type="text" class="form-control" placeholder="City" id="pCity" name="City" required>
                 </div> 
                 <div class="form-group6">
-                    Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="pPincodecode" required>
+                    Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="pPincodecode" name="Pincode" required>
                 </div>
                  
                  
@@ -126,22 +125,22 @@
                <!--=== Residential address=== -->
                 <div class="address-head"><p>Residential Address</p></div>
                 <div class="form-group1">
-                    Address: <input type="text" class="form-control" placeholder="Address Line" id="ReAddressLine1" required>
+                    Address: <input type="text" class="form-control" placeholder="Address Line" id="ReAddressLine1" name="Address" required>
                  </div>
                  <div class="form-group2">
-                     Street/Locality: <input type="text" class="form-control" placeholder="Street" id="ReStreet" required>
+                     Street/Locality: <input type="text" class="form-control" placeholder="Street" id="ReStreet" name="Street/Locality" required>
                  </div>
                  <div class="form-group3">
-                     Country: <input type="text" class="form-control" placeholder="country" id="ReCountry" required>
+                     Country: <input type="text" class="form-control" placeholder="country" id="ReCountry" name="Country" required>
                  </div>
                  <div class="form-group4">
-                     State: <input type="text" class="form-control" placeholder="State" id="ReState" required>
+                     State: <input type="text" class="form-control" placeholder="State" id="ReState" name="State" required>
                  </div>
                  <div class="form-group5">
-                     City: <input type="text" class="form-control" placeholder="City" id="ReCity" required>
+                     City: <input type="text" class="form-control" placeholder="City" id="ReCity" name="City" required>
                  </div> 
                  <div class="form-group6">
-                     Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="RePincodecode" required>
+                     Pincode: <input type="text" class="form-control" placeholder="Pincode Code" id="RePincodecode" name="Pincode" required>
                  </div>
                 </div>
                <!--=== Residential address=== -->
@@ -202,24 +201,24 @@
                 }
             </script>
 
-    <!-- Profession  -->
+            <!-- Profession  -->
     <div class="prof">
         <label for="profession">Profession:</label>
-        <input type="text" id="profession" name="myProfession" placeholder="Profession" required><br>
+        <input type="text" id="profession" name="Profession" placeholder="Profession" required><br>
     </div>
 
     <!-- Institute Name -->
     <div class="sname">
         <label for="iname">College/Company Name: </label> 
-        <input type="text" id="iname" name="myIname" placeholder="College/Company" required><br>
+        <input type="text" id="iname" name="College/Company Name" placeholder="College/Company" required><br>
     </div>
 
     <!-- Mobile Number -->
     <div class="number">
         <label for="mobnum">Mobile Number: </label> 
-        <input type="text" id="mobnum" name="myMobnum" placeholder="Number" required><br>
+        <input type="text" id="mobnum" name="Mobile Number" placeholder="Number" required><br>
         <label for="othermobnum">Other Number(Optional): </label>
-        <input Class="other"type="text" id="othermobnum" name="otherMobnum" placeholder="Number">
+        <input Class="other"type="text" id="othermobnum" name="Other Number" placeholder="Number">
     </div>
     
     
@@ -229,9 +228,9 @@
         <label for="member">Membership Type: </label>
         </div>
         <div class="member2">
-        <input class="form-check-input" type="radio" name="myMember" id="member" value="New Entry" required>
+        <input class="form-check-input" type="radio" name="Membership" id="member" value="New Entry" required>
         <label class="form-check-label" for="myMember">New Entry</label>
-        <input class="form-check-input" type="radio" name="myMember" id="member" value="Renewal" required>
+        <input class="form-check-input" type="radio" name="Membership" id="member" value="Renewal" required>
         <label class="form-check-label" for="myMember">Renewal</label>
     </div>
     </div>
@@ -268,15 +267,15 @@
         </div>
         <div class="become2">
             <div class="become3">
-        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Member" required>
+        <input class="form-check-input" type="radio" name="I want to become" id="become" value="Member" required>
         <label class="form-check-label" for="mybecome">Member</label><br>
             </div>
             <div class="become3">
-        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Active Member" required>
+        <input class="form-check-input" type="radio" name="I want to become" id="become" value="Active Member" required>
         <label class="form-check-label" for="mybecome">Active Member</label><br>
             </div>
             <div class="become3">
-        <input class="form-check-input" type="radio" name="mybecome" id="become" value="Part of Administrative Team" required>
+        <input class="form-check-input" type="radio" name="I want to become" id="become" value="Part of Administrative Team" required>
         <label class="form-check-label" for="mybecome">Part of Administrative Team</label>
             </div>
     </div>
@@ -286,23 +285,8 @@
     <!-- Why you join Trust -->
     <div class="join">
         <label for="join">Why you want to join HHFC Trust & What you expect from us?</label><br>
-        <textarea name="myJoin" id="join" cols="40" rows="5" placeholder="Your Expections" required></textarea>
+        <textarea name="Your Expection" id="join" cols="40" rows="5" placeholder="Your Expections" required></textarea>
     </div>
-
-    <!-- Profile & ID Proof -->
-    <!-- <div>
-        <label for="myfile">Upload your Photo</label>
-        <input type="text" id="email" name="email:" placeholder="">
-        <input type="file" id="myFile" name="filename" required>      
-        <input type="button" value="Send" onclick="google.script.run.processForm(this.parentNode)" required><br>
-
-        <label for="myfile">Upload your ID Proof</label>
-        <input type="text" id="email" name="email:" placeholder="">
-        <input type="file" id="myFile" name="filename" required>      
-        <input type="button" value="Send" onclick="google.script.run.processForm(this.parentNode)" required><br>
-        <label for="myfile">(Aadhar Card/ Driving License/ State ID/ Passport/ Company-Issued ID/ College or School ID(Any One))</label>
-    </div> -->
-
     <!-- contact with you -->
     <div class="paysuccess">
         <label for="paysuccess">After Successful payment our Executive will contact you in 5-7 working days: <br>
@@ -322,34 +306,38 @@
             provided by  HHFC.</label>
         </div>
     </div>
+            <button type="submit" class="button" onclick="reg()">Submit</button>
+    </div>
+    </form>
 
-    <button type="submit" class="button" onclick="reg()">Submit</button>
-</div>
-</form>
-<div>
-    <input class="chck" type="checkbox" name="" id="register">
-    <label for="register" class="payment">
-        <div class="donate-pay">
-            <h2>To become our part of family.</h2>
-            <form>
-                <script src="https://checkout.razorpay.com/v1/payment-button.js"
-                    data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
-            </form>
-        </div>
-    </label>
-</div>
-<div id="output"></div>
+    <div>
+        <input class="chck" type="checkbox" name="" id="register">
+        <label class="payment">
+            <div class="donate-pay">
+                <h2>To become our part of family.</h2>
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                        data-payment_button_id="pl_K4EWIQDAZvdY2C" async> </script>
+                </form>
+            </div>
+        </label>
+    </div>
 
-<script>
-    function reg(){
-        document.getElementById("register").click();
-    }
-</script>
-<script>
-    document.getElementById("myForm").addEventListener("submit",function(e){
-        e.preventDefault()
-        alert("Form is Submitted")
-    })
-</script>
+    <script>
+        function reg(){
+            document.getElementById("register").click();
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwR-X6bv7xsJnVlmFZOzT9BjYwElTHdfp0jJS_71ThGJCoPZmXzPnaMFuuj5zj5WWy1/exec'
+        const form =document.forms['google-sheet']
+        form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Form Submitted"))
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
 </body>
 </html>
