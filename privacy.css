@@ -35,6 +35,19 @@
     width: 30vw;
     background-color: #2c5e74;
 }
+.policy3{
+  display: flex;
+  flex-direction: column;
+}
+.policy3 h1{
+  text-align: center;
+  font-size: 8vh;
+}
+.policy3 span{
+  height: 0.5vh;
+  width: 30vw;
+  background-color: #2c5e74;
+}
 .policy2{
     width: 140vh;
     font-size: 3vh;
